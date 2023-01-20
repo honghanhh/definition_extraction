@@ -1,0 +1,6 @@
+Glavna vloga primerljivih korpusov v prevajalstvu je identifikacija vzorcev , ki so specifični za prevedena besedila ne glede na izvirni oziroma ciljni jezik .
+Pod statistično analizo razumemo načrtno zbiranje , urejanje , predstavljanje in tolmačenje zbranih podatkov .
+Vrhnji samostalniški sinset je { entiteta } , z njim pa so povezani vsi ostali samostalniki .
+V novejših SRG se praviloma ob statičnih značilkah pojavijo še t.i. dinamične značilke , ki ponazarjajo trende spreminjanja vrednosti v nekaj sosednjih vektorjih .
+V nekaterih domenah , npr. genetiki , imajo geni lahko več imen oz. oznak in jih je pametno pred nadaljnjim procesiranjem besedil spraviti v enotno obliko , kar je naloga normalizacije sinonimov .
+Razliko med pravo vrednostjo vzorca in napovedano vrednostjo vzorca imenujemo napaka linearne napovedi za trenutni vzorec in jo označimo z .

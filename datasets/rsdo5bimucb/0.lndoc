@@ -1,0 +1,50 @@
+V tem primeru ravnamo podobno kot pri iskanju dometa.
+Če je kot φ velik, bo čas leta dolg, vendar bo horizontalna hitrost majhna in s tem tudi domet.
+Domet pri poševnem metu, kadar je podlaga ravna, lahko izračunamo na dva načina.
+Kadar imamo več elastičnih teles (npr. vzmeti) vezanih v sistem, lahko izračunamo tudi njihov skupni koeficient prožnosti.
+Sedaj pa obravnavajmo obe telesi, ki trčita med seboj, kot naš opazovani sistem.
+Tudi če zapišemo vsoto notranjih navorov za sistem več masnih točk, je vsota notranjih navorov enaka nič, saj navori vedno nastopajo v parih, ki se med seboj odštejejo.
+Torej, vsota vseh sil, ki delujejo na določeno telo oz. na sistem masnih točk, bo povzročila, da se bo težišče telesa oz. sistema z maso m gibalo s pospeškom ar .
+Ker je biomehanika del fizike, od bralca pričakujemo razumevanje osnovnih konceptov matematike.
+Splošno se opazovani prostor v fiziki razteza od izjemno majhnih delcev, ki sestavljajo npr. protone atomov, pa vse do galaksij.
+Telo miruje ali se giblje premo enakomerno, če nanj ne deluje nobena sila oziroma je vsota vseh sil, ki delujejo na to telo, enaka nič:
+Telo miruje ali se giblje premo enakomerno, če nanj ne deluje nobena sila oziroma je vsota vseh sil, ki delujejo na to telo, enaka nič:
+Vsota vseh sil, ki delujejo na neko telo, je premo sorazmerna s produktom mase telesa in njegovega pospeška:
+Ugotovimo, da se sile v prečni smeri izničijo.
+V tem primeru seštejemo oba sunka teles na levi strani enačbe in obe spremembi gibalnih količin na desni strani:
+Slika 3.4.5: Shema trka drsalca in drsalke Ker vemo, da se gibalna količina med trkom ohrani, lahko zapišemo:
+Torej bi lahko izrek, da se gibalna količina sistema dveh teles med trkom ohrani, uporabili tudi takrat, kadar imamo zunanje sile (npr. sila teže in sila upora pri trku dveh letal v zraku).
+Skozi tekst se vrstijo nazorni praktični primeri, kot so let rotirajoče žoge za ponazoritev Magnusovega efekta; globinski doskok in drsalni par za boljše razumevanje sunka sile, gibalne količine in trka teles; valgusni navor kolenskega sklepa v odvisnosti od širine smučke in številni drugi.
+Negativni predznak gravitacijskega pospeška označuje njegovo smer, ki kaže proti središču Zemlje.
+Kot smo že zapisali, je ob velikosti hitrosti pomembna tudi njena smer.
+Slika 3.4.5: Shema trka drsalca in drsalke Ker vemo, da se gibalna količina med trkom ohrani, lahko zapišemo:
+Na osnovi koeficienta prožnosti trka lahko definiramo tri različne trke (slika 3.4.4):
+Slika 3.4.1: Centrični trk dveh teles: gibanje pred trkom (zgoraj), trk (sredina) in gibanje po trku (spodaj)
+Za obravnavo trkov je uporabno definirati tudi relativno hitrost.
+Po trku pa se telesi gibljeta s hitrostma vr1' in vr2'.
+Hitrost je fizikalna količina, ki nam pove, koliko se telo premakne na časovno enoto, in ima enoto [m/s].
+Enota, ki jo ima kotna hitrost, je tako [s-1], kar nekateri avtorji zapišejo tudi [rad/s].
+Enote dolžine, časa in mase imenujemo osnovne zato, ker so vse druge enote (hitrost, pospešek, sila, energija …), ki jih sicer uporabljamo v mehaniki, izpeljane iz teh osnovnih enot.
+Enota za silo je Newton [N] in je enaka [kg·m/s2].
+Enačba 3.39 pravi, da je vsota produktov mas posameznih točk z njihovim krajevnim vektorjem enaka produktu skupne mase in skupnega krajevnega vektorja.
+Najprej smo zapisali osnovni definiciji za hitrost in pospešek, ki ju lahko izračunamo iz krajevnega vektorja oz. iz vektorja hitrosti.
+Ker je razlika krajevnih vektorjev vzporedna s F12 , je vsota obeh navorov enaka nič.
+kjer z rri označimo krajevni vektor i-te točke in z rr skupni krajevni vektor sistema masnih točk.
+Togo telo je lahko homogeno, takrat je njegova gostota po vsem volumnu enaka, lahko pa je tudi nehomogeno, kadar je gostota po volumnu telesa neenakomerna.
+Ker pri doskoku deluje tudi sila teže, F∆t pa je po definiciji vsota vseh zunanjih sunkov navorov, je sila podlage po 2. Newtonovem zakonu enaka:
+Poznamo njegov čas kompenzacije doskoka ∆t in njegovo maso m. Kolikšna bo povprečna sila podlage na športnika pri doskoku in kolikšna bo pot težišča telesa, ki jo bo telo opravilo med kompenzacijo doskoka?
+Navor ob odrivu povzroča le sila podlage, ki je ekscentrična, sila teže pa je centrična.
+dobimo, da je vsota vseh zunanjih sil, ki delujejo na sistem masnih točk, enaka produktu mase vseh točk m in skupnega pospeška ar :
+Vsota vseh sil F , ki delujejo na telo, je enaka produktu mase in pospeška: r
+Rezultat na koncu pa je enak: vsota vseh sil, ki delujejo na togo telo, je enaka produktu mase tega telesa in njegovega pospeška.
+Kot smo se učili, je v inercialnem sistemu vsota vseh sil v radialni smeri enaka centripetalni sili oziroma produktu mase in radialnega pospeška:
+Če bi ta isti opazovalec opazoval vozilo, ki ima enak pospešek kot tisto, v katerem se vozi opazovalec, bi na drugo vozilo ravno tako delovala sistemska sila nasprotno enaka produktu mase in pospeška.
+Sila podlage Fp je reakcija, ki jo povzroči podlaga na opazovano telo.
+Velikost deformacije ∆l je pri dovolj omejenih deformacijah sorazmerna velikosti zunanje sile: lF
+Vsako telo spremeni obliko oziroma se deformira, kadar nanj delujejo zunanje sile.
+Na telesi sicer delujeta še zunanji sili, to sta sila teže in sila normale, ki pa se v vsakem trenutku izničita.
+Zato v biomehaniki vpeljemo količino, ki jo imenujemo moč in je definirana kot opravljeno delo na časovno enoto:
+S pomočjo tehnologije in biomehanike je mogoče povratno informacijo izboljšati.
+Biomehanika se začne z opazovanjem gibanja.
+Tak primer je trk ob tla.
+Višina med mostom in tlemi je natanko h = 40 m. Elastika ima koeficient prožnosti k = 200 N/m. Ali je nastavitev dolžine elastike na L = 20 m primerna za skok 70 kg težkega športnika?

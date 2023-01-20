@@ -1,0 +1,3 @@
+Kot del akustične segmentacije je segmentacija govor / negovor navadno prvi od niza korakov akustične segmentacije .
+Orodje Whittle , natančneje opisano v 3.1.5 , tudi del Egypt zbirke , omogoča enostavno pretvarjanje datotek z nanizanimi povedmi v vhodni GIZA format .
+Algoritme , ki se ukvarjajo z združevanjem entitet , delimo glede na način delovanja na : Atributski ( ang. attribute-based ) : Za vsaki dve referenci entitetnih tipov izračunamo oceno podobnosti simA ( ri , rj ) .

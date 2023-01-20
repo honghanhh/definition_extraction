@@ -1,0 +1,47 @@
+Pomnilnike polavtomatsko ustvarjamo na podlagi že prevedih besedil in njihovih izvorov .
+Slovarski del črkovalnika je abecedno urejen spisek besed , ki ga programski del uporablja pri svojem delu .
+Govorce , ki nastopajo v govornih občilih ( radio , televizija ) , je treba razdeliti na medijske ( poklicne ) govorce , katerih govorne izvedbe bomo imenovali medijski govor , in na druge govorce , ki v oddajah najpogosteje nastopajo v vlogi gostov , njihova govorna kompetenca pa je bolj ali manj odvisna od izkušenj , ki so si jih v javnem izrekanju pridobili v lastni jezikovni praksi .
+Za izdelavo treh potrebnih jezikovnih modelov smo uporabili standardno orodje za gradnjo jezikovnih modelov CMU-SLM Toolkit V2.0 ( Clarkson , 1997 ) univerz Carnegie-Mellon in Cambridge , ki je prosto dostopno na naslovu http : / / svr-www.eng.cam.ac.uk / ~ prc14 / toolkit.html .
+Besedne oblike iz semantične kategorije relativni izraz imajo v kontekstu namreč lahko različne pomene .
+Statistike na strežniku kažejo , da je Online SLO-DE-SLO zelo priljubljen spletni jezikovni vir .
+Cene dialoga , tj. parametre dialoga , katerih minimizacija ugodno vpliva na zadovoljstvo uporabnikov , razdelimo v dve kategoriji : parametri učinkovitosti dialoga in parametri kakovosti dialoga .
+Naloga postopkov za izbiro govornih segmentov je poiskati najustreznejše govorne segmente iz zbirke , tako da bodo zlepljeni tvorili čim bolj kakovosten govorni signal .
+Ceno celotne poti računamo tako , da seštevamo cene lepljenja oz. cene povezav med vozlišči , po katerih se premikamo ( C L ) , in cene prileganja prozodičnih lastnosti oz. cene vozlišč , ki jih obiščemo ( C P ).
+Nov pristop Kempelena 2.1 uporablja vnaprejšnje izbiranje kandidatov za osnovne govorne enote na podlagi fonološke analize pravorečne transkripcije besedila .
+Programska orodja , ki so se razvila za analizo korpusov omogočajo ne le pridobivanje jezikovnih podatkov iz korpusa , ampak tudi njihovo obdelavo in hranjenje .
+3.2.1 Osnovne informacije o korpusu dobimo s pomočjo liste besed korpusa , pogostostno ali abecedno urejen seznam različnic .
+Koraki obdelave besedil so odvisni od razpoložljivih sredstev in namena uporabe korpusa , skoraj vedno pa vključujejo vsaj čiščenje besedil in pretvorbo v enotni zapis .
+O zunanjih podatkih govorimo pred vključitvijo v korpus ( gre torej za neoznačena pisna ter transkribirana govorjena besedila ) , po vključitvi ter obdelavi besedil pa govorimo o notranjih podatkih : » Tako dostopni in strojno berljivi notranji podatki v samem računalniku so takšne vrste in lastnosti , kakršne tvorci korpusa glede na zamišljeni cilj in uporabo dodajo .
+Konkordančnik z imenom NEVA , s katerim iščemo po korpusu , omogoča enostavno iskanje po besedah ( tudi z zvezdico kot nadomestnim znakom za poljubni niz črk ) in frazah .
+Opis datoteke < fileDesc > vsebuje poln bibliografski opis datoteke , vključno z bibliografsko informacijo njenega vira ali virov .
+Avtorji ABZ opisujejo kot zbirko preko 260.000 najpogostejših besed , ki se pojavljajo v slovenskem jeziku ( http://www.amebis.si/ , 19. 4. 2003 ) , šlo pa naj bi za tiste besede , ki so jih pri Amebisu zbrali pri izdelavi različnih jezikovnih orodij , Slika 1 : Prikaz primerniške oblike prislova prijaznejše v ABZ .
+V okviru projekta LC-STAR se gradijo korpusi govorjenih dialogov v osnovi za tri jezike : španskega , katalonskega in angleškega .
+4.2.1 Seznam enobesednih luščenih terminoloških kandidatov Ta seznam je nastal po metodi relativne pogostosti , ki temelji na predpostavki , da se bodo v strokovnih besedilih izrazi , ki jih v splošnem jeziku ni , in izrazi , ki imajo glede na splošni jezik zožen pomen , pojavili relativno pogosteje kot v drugih , nestrokovnih besedilih ( Damerau 1993 ) .
+Pri vsaki novi enoti , ki jo začnemo prevajati , program samodejno pregleda zbirko prevodnih enot in nam ponudi eno od treh možnosti : • ni zadetka ( no match ) , kadar se nobena enota v pomnilniku do ( uporabniško ) določenega odstotka ne ujema z novo , • megleni zadetek ( fuzzy match ) , kadar je program našel eno ali več enot , ki so novi do določenega odstotka podobne , • poln zadetek ( exact match ) , kadar se najdena enota popolnoma ujema z novo .
+Samodejno grobo označevanje govorne zbirke S postopkom siljenega prileganja posnetkov govora z grafi modelov glasov , ki so določeni iz fonetičnih prepisov izgovorjenih različic besed , si lahko močno olajšamo dolgotrajno in zamudno ročno segmentacijo in označevanje glasov ( Dobrišek 2001 ) .
+2.3.9 ZRC SAZU , Inštitut za slovenski jezik Frana Ramovša Na Inštitutu za slovenski jezik Frana Ramovša pri ZRC SAZU se v Laboratoriju za korpus slovenskega jezika ( http://bos.zrc-sazu.si/ ) ukvarjajo predvsem z razvojem pisnih jezikovnih virov .
+Največ raziskav strukture pogovora najdemo v okviru konverzacijske analize ( najbolj znani avtorji konverzacijske analize so Sacks , Schegloff , Jefferson , Pomerantz in drugi ) .
+Drugi deli bližnjega para so lahko recipročni ( npr. pozdravu sledi pozdrav ) , lahko je samo ena vrsta drugega dela primerna ( vprašanju sledi odgovor ) , lahko pa so prvemu delu ustrezni različni drugi deli ( pritožbi lahko sledi opravičilo ali pritožba ) .
+Loči tri podkategorije : a. EL-popravljanja : govorec popravi napako na ravni besede , npr. naravnost k rdeči , oziroma pardon , naravnost k črni , b. ES-popravljanja : govorec popravi začeto skladenjsko strukturo , npr. obrneš levo pri modri , k modri točki , c. EF-popravljanja : govorec popravi izgovorno , fonetično napako , npr. enata , enota iz rumene točke .
+Hkratni govor je označen samo v tistem delu signala , kjer dejansko govorita oba govorca hkrati , ne glede na meje med izjavami .
+K12 : ja ja Zaton me zanima Naslednja ( večja ) skupina primerov rabe diskurznega označevalca ja izraža potrditev razumevanja in pozornosti – ja je signal , da je bilo sporočilo sprejeto in razumljeno .
+6.2.5.1 Pragmatične vloge eee Eee lahko interpretiramo ( tudi ) kot znak , da želi govorec ( še ) nekaj povedati , zato ga nikoli ne štejem za oporni signal .
+Odprtost spontanega govorjenega diskurza , ki omogoča vpogled v izbiro jezikovnih sredstev pri tvorjenju besedila na sintagmatski in paradigmatski osi , omogoča , da govorec na katerikoli točki ( tudi sredi besede ) prekine začeto strukturo in jo ali 150 nadaljuje ali spremeni ali zamenja z drugo strukturo ali jo enostavno pusti nedokončano ipd.
+Tretja skupina prekinitev pa je povezana predvsem s procesi pri tvorjenju govora , torej izhaja iz govorca samega in jo lahko uvrstimo v psihološko dimenzijo diskurza .
+4.3.2 Razširitveni modeli Diskrepance med posameznimi zbirkami skušajo čim bolj zmanjšati razširitveni modeli ( Pianta , Bentivogli in Girardi 2002 , Tufiş , Cristea in Stamou 2000 ) , ki se med gradnjo ves čas naslanjajo na referenčni wordnet in se skušajo čim bolj držati njegove strukture po načelu : » če med pojmoma v referenčnem wordnetu velja neko razmerje , velja isto razmerje tudi med ekvivalentnima pojmoma v ciljnem wordnetu « ( Vossen 1996 , 716 ) .
+Najenostavnejši način avtomatskega vrednotenja izdelanih wordnetov bi bila primerjava generiranih sinsetov z ekvivalentnimi sinseti iz referenčnega wordneta .
+Datoteka RDR je datoteka , ki vsebuje RDR pravila .
+Primer naloge v svetu Tarskega je , da je treba stavek iz naravnega jezika prevesti jezik prvega reda .
+Za svet Tarskega je bil leta 1999 napisan program [ 17 ] , ki slovenske povedi iz sveta Tarskega prevede v logični zapis , primeren za uvoz v program Svet Tarskega .
+• ( filetype : ) – iskanje omejeno na specifičen tip datoteke ; primer uporabe ( filetype:pdf + SEO ) , dobljeni rezultati so dokumenti tipa pdf , ki vsebujejo v naslovu ključno besedo SEO .
+Takšne storitve preprosto imenujemo semantični API-ji , katerih osnovna naloga je na podlagi nestrukturiranega besedila , ki ga dobimo na vhodu , na izhodu vrniti entitete in njihove medsebojne povezave .
+Naslednji primer je SemanticHacker API34 , ki klasificira podatke v dokumentu v kategorije , imenovane semantični opisi .
+ProcessingResources ( PR ) so komponente , ki izvajajo nek algoritem , npr. razčlenjevalniki , generatorji in modelirniki n-gramov .
+VisualResources ( VR ) so komponente , ki se uporabljajo v grafičnem uporabniškem vmesniku za vizualizacijo ali kot urejevalniki .
+ITextProc ( programski vmesnik ) predpisuje več tipov dodatkov , ki imajo specifično funkcijo : InputPopulator : generira dokumente korpusa .
+Izvajanje Java Web Start aplikacije se prične tako , da se datoteka JNLP posreduje izvajalnemu okolju JRE , ki iz naslova , določenega v datoteki JNLP , pre - nese applet na uporabnikov računalnik in ga zažene [ 7 ] .
+Tudi slednji paket je na voljo pod prostimi pogoji in je namenjen širitvi MT. » ISI ReWrite Decoder « je program , ki prevaja iz enega naravnega jezika v drugi s pomočjo SMT .
+Širjenje zvoka v cevi lahko opišemo kot potujoče valovanje , ki se na robovih cevi odbija .
+Kot izvor zvoka služi periodični signal za zveneče in šum za nezveneče glasove .
+Kot značilne glasove smo definirali tiste glasove jezika , ki jih tvorijo govorila v stabilnih stanjih in so spektralno dovolj lahko ločljivi med seboj in ostalih neznačilnih glasov .
+Vzporedno z razvojem korpusov pa so se začela razvijati tudi računalniška orodja za njihovo izgradnjo , analizo , upravljanje in iskanje besed po korpusih .

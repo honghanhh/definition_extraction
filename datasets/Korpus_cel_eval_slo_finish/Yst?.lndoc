@@ -1,0 +1,3 @@
+21 http://sketchengine.co.uk/auth/wbc/ 22 http : / / www-nlp.stanford.edu / links / statnlp.html # Taggers 23 http://nl2.ijs.si/analyze/ 24 http://www.lexically.net 25 http://mate.nis.sdu.dk/ 26 Utež je navadno številska vrednost , ki izraža pomembnost določene enote .
+Pristop od spodaj navzgor ( ang. bottom-up ) je sinteza , v kateri združujemo manjše probleme in tako gradimo večjo , kompleksnejšo rešitev .
+coreferencer : doda reference med imenovanimi entitetami in njihovimi zaimki ( angl. " anaphora resolution " , opisano v 2.1.7 na strani 10 ) .

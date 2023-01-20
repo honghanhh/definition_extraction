@@ -1,0 +1,13 @@
+Slovenski jezikovni viri , zapisani po TEI P3 , so del korpusov mednarodnih projektov s področja jezikovnih tehnologij , MULTEXT-East in TELRI .
+V okviru projekta FIDA je v izdelavi referenčni korpus slovenskega jezika .
+Projekt Lingua [ 5 ] je konkordančni projekt , ki ga je finančno podprla Evropska unija , vključuje pa Dansko , Grčijo , Italijo , Veliko Britanijo in Francijo .
+Islovar je informativni in normativni slovar , beleži vse pojave izraza , jih ovrednoti in ustrezno označi .
+Islovar je spletni računalniški program .
+Besedila iz prve skupine so bila že poravnana , pri ostalih pa smo uporabili orodje + Tools Align iz programskega paketa za pomnilnike prevodov Wordfast ( http://www.wordfast.net ); poravnavo smo v celoti ročno preverili in pri tem izločili povedi z očitnimi napakami in povedi , kjer je prevod manjkal .
+Namesto klasičnega slovarja smo kot nabor pomenov uporabili semantični leksikon sloWNet , ki je bil izdelan s polavtomatskimi metodami iz že obstoječih večjezičnih virov , kot so dvojezični slovar , vzporedni korpusi in Wikipedija ( Fišer in Sagot 2008 ) .
+Korpus FIDA je sinhroni korpus ; vanj so vključena besedila po l. 1990.
+3.2.2.2 EVROKORPUS Zbirka jezikovnih dvojic izvirnih in prevedenih besedil SP je pod imenom Evrokorpus na voljo tudi na internetu ( http://www.sigov.si/evrokorpus ).
+Elektronski arhivski sistem SdTVista je SdT dostopen prek strežniško-odjemalskega vmesnika .
+Prvi prevodoslovni korpus , na katerem je bilo opravljenih že precej raziskav , je Translational English Corpus ( TEC ) 2 z Univerze v Manchestru .
+Opis označevalnika Stanford 14 Poglavje 4 Opis označevalnika Stanford Stanfordov označevalnik uporablja za učenje logaritemsko-linearni pogojno verjetnostni model in pri tem uporablja metodo maksimalne entropije Naj bo w beseda in t možna oznaka zanj .
+Obstaja nekaj on - tologij , kot sta Cyc ali WordNet , ki jih ročno gradijo že več 10 let .

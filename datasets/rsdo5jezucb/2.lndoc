@@ -1,0 +1,8 @@
+• Korpus je zbirka avtentičnih besedil, zbranih po določenih kriterijih glede na namen korpusa.
+Lematizacija je postopek pripisovanja leme oz. osnovne oblike besede vsaki pojavnici v korpusu.
+Tokenizacija je postopek prepoznavanja in določanja osnovnih korpusnih enot, tj. pojavnic (token).
+Izpis konkordanc je zapis besede oz. besedne zveze iz korpusa v jedru izpisa s svojim besedilnim okoljem.
+Ko sestavimo korpus le iz besedilnih fragmentov in ne celotnih besedil, govorimo o vzorčnem korpusu.
+WordSmith Tools je orodje za obdelavo in raziskovanje enojezičnih korpusov, ki so shranjeni v eni ali več besedilnih datotekah (.txt) v poljubnem znakovnem kodiranju (ANSI, Windows, Unicode), s posebnim filtrom pa je mogoče tudi uporabiti datoteke v formatu pdf in doc (Scott 2008).
+Literali so številke in črke, ki jih lahko nadomestimo z nadomestnimi znaki, z operatorji pa kombiniramo posamezne dele iskalnega pogoja.
+• Korpusno jezikoslovje je pristop v jezikoslovnih raziskavah, ki temelji na analizi velike količine avtentičnih besedil, hkrati pa tudi metodologija za študij jezika v rabi.

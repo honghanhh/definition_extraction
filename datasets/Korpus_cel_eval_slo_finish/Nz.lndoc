@@ -1,0 +1,6 @@
+Takemu načinu sinteze govora pravimo sinteza z uporabo velike govorne zbirke ( angl. corpus-based synthesis ) ali z drugim imenom sinteza z izbiro enot ( angl. unit-selection synthesis ) .
+Predstavljen princip dušenja okvirjev se razlikuje od principa odstranjevanja okvirjev , kjer so okvirji v celoti odstranjeni iz nadaljnjega postopka procesiranja vektorjev značilk ( Andrassy et al. , 2001 ) .
+IV-2 V raziskavi je uporabljen podkorpus korpusa Fida+X , ki je različica korpusa FidaPLUS .
+Šele s prevlado osebnih računalnikov pa se je razvila veja računalniško podprtega prevajanja ( CAT - Computer-Aided Translation ) , ki je za jezikovne profesionalce neprimerno bolj zanimiva , medtem ko so orodja za strojno prevajanje danes namenjena predvsem ljudem , ki se z jezikom ne ukvarjajo poklicno .
+Pri testiranju je bila pri samodejni metodi uporabljena metoda desetkratnega prečnega preverjanja ( tenfold cross validation ) .
+Softpedia je zakladnica informacij za vsakega računalničarja .

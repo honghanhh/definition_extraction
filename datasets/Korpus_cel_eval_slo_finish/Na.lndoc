@@ -1,0 +1,29 @@
+V zadnjih letih se je povečalo zanimanje za takšne jezikovne vire v Evropski uniji , ki tudi finančno podpira izdelavo besedilnih korpusov ( različni projekti , npr. Pendant , Intersect , Interlingua [ 5 ] , itd. ) .
+Ta podatkovna zbirka predstavlja eno prvih obsežnejših dokumentiranih govornih zbirk za slovenski govor in ni primerna zgolj pri postavljanju in preizkušnju sistemov za razpoznavanje tekočega slovenskega govora , marveč tudi za druge študije s področja slovenskega jezika .
+To je program , katerega funkcija je odkrivanje tipkarskih napak v besedilu .
+Ta proces imenujemo oknjenje govornega signala .
+Takšen niz povezav imenujemo poravnava ( alignment ) .
+Zbirko so poimenovali Egypt .
+Ko sistem dobi oba podatka , posreduje uporabniku informacijo o tem , kaj se dogaja na izbranem prizorišču ob izbranem času .
+To so tako imenovani homografi .
+Računalnikarji jih imenujejo metapodatki , za jezikoslovce in pravnike so to bistveni vsebinski podatki .
+Govorec , ki ima takšno znanje , je strokovnjak in uporablja strokovni jezik .
+Ta tip variacije je verjetno tudi najbolj razširjen in zajema tudi pojavljanje akronimov namesto izpisane različice termina .
+Oba faktorja povežemo v enotno utež , ki se imenuje tf.idf ( angl. Term Frequency -- Inverse Document Frequency ) .
+Kasneje , v sklopu projekta Jezikoslovno označevanje slovenščine ( JOS ) , je bil ta sistem revidiran ter nadgrajen ; prenovljeni sistem imenujemo nabor oblikoskladenjskih oznak JOS .
+V osnovi bi jih lahko strnili v naslednje sklope ( Atkins et al. 1992 : 2 ) : specifikacija korpusa in njegova oblika , strojna in programska oprema , zajem besedil in označevanje korpusnih dokumentov , procesiranje zbranega gradiva , končna oblikovanost korpusa in povratne informacije v zvezi z njim .
+Obstajajo tudi orodja , ki implementirajo preverjanje skladnosti dokumentov XML po specifikaciji v teh shemah in prevajanje DTD-jev v izraze iz teh dveh shem .
+Te metode izhajajo namreč iz pojmovanja jezika kot niza znakov in besed , v katerem lahko na matematični način odkrivamo vzorce in pravila , ne da bi za to poznali sam jezik in njegova oblikoskladenjska pravila .
+Leksikalne zbirke , zgrajene s tem pristopom , se skušajo čim bolj držati sinsetov in semantičnih relacij angleškega WordNeta po načelu : če med sinsetoma v angleškem WordNetu velja neka relacija , velja ista relacija tudi med ekvivalentnima sinsetoma v novem jeziku ( Vossen 1998 ) .
+Vossen ( 1998 ) ta pristop imenuje » razširitveni model « ( ang. expand model ) , za katerega trdi , da je veliko preprostejši od prvega in zagotavlja najvišjo možno stopnjo ujemanja med različnimi jeziki .
+Razvijanje računalniških tehnologij , ki bi znale ta proces simulirati ali vsaj optimizirati nekatere njegove dele , zato že dolgo predstavlja izziv tako jezikoslovcem kot računalničarjem .
+2 ) Naslednja skupna lastnost , ki jo navaja ( Schourup , 1999 ) , je neobveznost .
+5 ) Sintaktična ločenost je v govoru običajno zaznamovana tudi v prozodiji s tako imenovano fonološko neodvisnostjo : lahko so poudarjeni , ločeni s premorom , označeni z intonacijo ...
+Ta postopek imenujemo pregibanje besed .
+Če je preveliko , se Najbolj znani sta t.i. melodična ( angl. " Mel Scale " ) in Barkova lestvica .
+Pojav se imenuje koartikulacija in je za govor zelo značilna .
+Najbolj znana tovrstna naloga je Einsteinova uganka [ 33 ] , napisana v prilogi 6.3.
+Te faze so : študija izvedljivosti , začetek razvoja , plemenitenje , vrednotenje ter aplikacija in razvoj .
+Kot primer lahko navedemo MUC in ACE , oba s področja ekstrakcije imenovanih entitet iz besedil v angleškem jeziku ter DUC s področja strojne izdelave povzetkov besedil v angleškem jeziku .
+Postopek se ponovi še devetkrat , tako da so vsi primeri korpusa prisotni v testni in v učni množici .
+Te besede so predlogi , zaimki , vezniki , .

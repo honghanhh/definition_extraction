@@ -1,0 +1,7 @@
+Kar se tiče pomnilnikov prevodov , predlaga Iko Knyphausen , eden od ustanoviteljev podjetja Trados , naslednjo rešitev : pomnilnik prevodov naj pripada tistemu , ki je lastnik programske opreme , saj je nakup programa tako velika investicija , da si avtorske pravice " zasluži " investitor .
+Vzporedni korpusi - primer slovensko-angleškega vzporednega korpusa je IJS-ELAN2 - lahko pomagajo pri poučevanju prevajanja , saj pokažejo specifične strukture v nekem jeziku ali nekatere prevodne zakonitosti ( npr. kibbitzers ( Johns , 1998 ) ) .
+Za slovenščino je položaj trenutno še zmeraj precej omejen , obstajajo na primer korpusi VAYNA ( besedni napadi na JLA ) , Literat ( Hladnik ) , MULTEXT-East ( Erjavec in sod. ) , Beseda ( Jakopin ) in FIDA ( Krek in sod. ) , vendar so premajhni , da bi bili reprezentativna slika slovenskega jezika , ali pa do njih nimamo prostega dostopa .
+Nekoliko drugačno strukturo podatkovne baze ima sistem Jupiter , katerega sestavni del je semantični analizator Tina ( Seneff , 1992 ) .
+Projekt LC-Star ( Lexica and Corpora for Speech to Speech Translation ) ( Höge , 2002 ) ( Lazzari , 2000 ) je projekt petega okvirnega programa .
+BNC je sinhroni korpus .
+Primer vzporednega korpusa je Evrokorpus , ki ga prikazuje Slika 14.

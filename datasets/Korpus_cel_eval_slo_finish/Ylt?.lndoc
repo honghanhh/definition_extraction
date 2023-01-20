@@ -1,0 +1,13 @@
+Na pobudo evropskega združenja proizvajalcev računalniške opreme ECMA je mednarodna organizacija ISO zato leta 1987 izdala prve štiri osembitne standarde iz družine ISO 8859 [ 1 ] , ki so po vrsti urejali kodne razporede za jezike zahodne Evrope , vzhodne oz. srednje Evrope , mediteranskega bazena z Južno Afriko , ter baltsko-skandinavskega območja .
+Zato smo v okviru projekta Kolos , katerega cilj je izgradnja celovitega informacijskega sistema za komunikacijo v naravnem jeziku , razvili poseben programski jezik z delovnim imenom K in trenutno verzijo 2.0.
+Zbirka spontanega govora , ki smo jo pridobili v prvem eksperimentu čarovnik iz Oza , smo poimenovali SSSQ ( Hajdinjak in Mihelič , 2003b ) .
+Baze iz družine Broadcast News sestavljajo posnetki različnih televizijskih in radijskih oddaj .
+Oznaka BNSI-Text predstavlja tekstovni korpus baze BNSI ( Žgank et al. , 2005 / 1 ) , ki vsebuje scenarije dnevnoinformativnih oddaj RTV Slovenija iz obdobja 1998-2004.
+Wordsmith Tools ponuja skupek programov za izdelavo besednih seznamov , seznamov ključnih besed in za konkordančno iskanje , ob tem pa aplikacija vključuje še orodja za kosanje in združevanje datotek , iskanje in zamenjavo nizov v korpusu , iskanje besedil na spletu itd.
+Orodje WordSmith Tools , ki je podrobneje predstavljeno v 5.2 , s funkcijo WordList izdela seznam pojavnic v posameznem korpusu , funkcija KeyWords2 pa omogoča izbor ključnih besed , ki to besedilo ločijo od referenčnega korpusa .
+Kot primer takega programskega orodja predstavljamo orodje Sigmark , ki omogoča prikaz in obdelavo posnetih govornih signalov in izbranih akustičnih značilk ter poslušanje poljubnih odsekov signala .
+Podjetje Amebis je pred kratkim objavilo prvi slovenski avtomatski prevajalni sistem Presis , ki prevaja iz slovenskega v različne tuje jezike .
+Kot pravi dokumentacija paketa [ Loper and Bird , 2003 ] , je nltk zbirka modulov za python , ki poenostavlja izdelavo sistemov za obdelavo narav - nega jezika ( NLP sistemi ) .
+Eden najpogosteje uporabljenih strojno berljivih slovarjev je Longman Dictionary of Contemporary English oz. na kratko LDOCE 2 , ki je obsežen slovar angleškega jezika , namenjen tujim govorcem .
+Avtorji so opredelili Ontogen kot pol avtomatični , podatkovno voden sistem za gradnjo preprostih ontologij , s katerim lahko hierarhično razbijemo koncept na podkoncepte opisane s ključnimi besedami , edina relacija med njimi pa je " podkoncept " ( angl. subconcept of ) .
+» Crawling « je proces , med katerim Googlebot odkrije nove in posodobljene spletne strani , za dodajanje v Googlov indeks spletnih strani .

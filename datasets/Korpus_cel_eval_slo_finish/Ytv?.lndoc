@@ -1,0 +1,3 @@
+Plodnost je število slovenskih besed , ki jih proizvede angleška beseda e i ob prevodu .
+Uporabila sem Oxford WordSmith Tools 4.0 , nekakšen skupek programov , ki nam omogočajo vpogled v vedenje in obnašanje besed v besedilu in sobesedilu .
+Pregled metod V pričujoči raziskavi za semantično označevanje korpusa uporabljamo t.i. » slovarski model « , v okviru katerega označevalec za vsako pojavnico v korpusu , ki jo želi označiti , preveri njene pomene v slovarju , ki ga za označevanje uporablja , in glede na sobesedilo izbere najustreznejšega .

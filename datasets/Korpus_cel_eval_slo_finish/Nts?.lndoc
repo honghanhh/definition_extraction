@@ -1,0 +1,6 @@
+Drugo osnovno orodje je WordList , ki sestavi seznam vseh pojavnic v korpusu in jih uredi bodisi po številu pojavitev bodisi po abecednem redu .
+Tretje osnovno orodje je KeyWords , ki med seboj primerja dva ali več seznamov besed ( wordlists ) .
+Dodatni nabori oznak ( additional tag sets ) zajemajo raznovrstna dodatna označevanja , ki predstavljajo določeno interpretacijo besedila ali pa nebesedilne elemente besedil , kot so navzkrižne povezave ( za stvarna kazala ) ali pa slike .
+Metoda na osnovi primerov ravno nasprotno temelji na prepričanju , da ljudje primarno prevajamo tako , da poved razdelimo na besedne zveze , ki jih nato prevedemo , na koncu pa jih pravilno sestavimo v poved .
+Ideja statističnega pristopa je , da pustimo računalniku , da se sam avtomatsko uči , kako prenesti besedilo iz enega jezika v drugega na podlagi velikih dvojezičnih poravnanih korpusov .
+Ujemanje pomenov so skušali izboljšati z združevanjem preveč podrobnih pomenov v bolj splošne skupine , imenovane superpomeni , kar so v enem primeru storili ročno pred označevanjem ( Palmer , Dand in Fellbaum 2007 ) , v drugem pa so že označene pomene avtomatsko združili ( Bruce in Wiebe 1998 ) , kar je rezultate izboljšalo za skoraj 10 %.

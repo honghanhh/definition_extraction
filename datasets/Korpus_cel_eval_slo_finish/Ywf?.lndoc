@@ -1,0 +1,1 @@
+Koeficient tf.idf ( Term Frequency – Inverted Document Frequency ) se definira kot teža termina i v zbirki dokumentov j , kjer je N število dokumentov , tfij je pogostost termina v dokumentu , dfi pa število dokumentov , ki vsebujejo termin i. V našem primeru se je pokazalo , da to merilo pri obeh podkorpusih bolj zanesljivo pokaže termine kot relativna pogostost .

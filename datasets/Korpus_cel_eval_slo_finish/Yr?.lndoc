@@ -1,0 +1,2 @@
+Govorne segmente , katerih začetne in končne meje smo določili s pomočjo akustične segmentacije vhodnega signala , pretvorimo v nizkodimenzionalno zaporedje značilk , ki služijo kot osnovni vhodni parametri algoritma za avtomatsko razpoznavanje govora .
+Pomnilnik prevodov meglene zadetke vedno išče na podlagi primerjave nove , še neprevedene prevodne enote z enotami , shranjenimi v pomnilnik .

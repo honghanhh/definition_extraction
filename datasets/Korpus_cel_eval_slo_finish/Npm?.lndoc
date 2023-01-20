@@ -1,0 +1,1 @@
+Metriki BLEU ter METEOR sta najbolj razširjeni samodejni metriki za evalvacijo strojnega prevajanja , odločili smo se za uporabo obeh , čeprav se mnogi avtorji strinjajo , da metrika BLEU ni primerna za primerjavo različnih sistemov ( Callison-Burch et al. , 2006 ) .

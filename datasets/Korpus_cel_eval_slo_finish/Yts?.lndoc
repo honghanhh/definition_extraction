@@ -1,0 +1,4 @@
+Predstavljamo sintetizator slovenskega govora , ki je sposoben samodejnega pretvarjanja poljubnih slovenskih besedil v govor .
+Posebej je bil narejen tudi seznam t.i. končnih naborov ( closed sets ) , tj. seznam besed tistih besednih vrst , ki jih je v posameznem jeziku končno število .
+Osnova za izbor gesel so samodejno izdelani seznami terminoloških kandidatov , se pravi besed in besednih zvez , ki na podlagi statističnih obdelav in oblikoskladenjskih značilnosti izstopajo kot za stroko pomembne .
+Hutchins in Somers ( 1992 ) pri analizi besedila navajata tri kriterije : ali prevod posreduje enake informacije kot izvirnik ( informativost ) , ali so besede v prevodu primerne glede na vsebino in namen ( ustreznost ) in ali je prevod jasen ( razumljivost ) .

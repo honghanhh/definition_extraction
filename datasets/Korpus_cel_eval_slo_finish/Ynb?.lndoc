@@ -1,0 +1,2 @@
+Strojno prevajanje zajema vsa orodja , pri katerih je prevajalski proces s pomočjo modulov za oblikoslovno in skladenjsko analizo in sintezo ter eno - in dvojezičnih leksikonov do največje možne mere avtomatiziran , človeška vloga pa je omejena na morebitno predpripravo besedila in popravo rezultatov .
+Govorni signal je v postopku segmentacije potrebno razmejiti oz. segmentirati na posamezne segmente ali govorne odseke in jim v postopku označevanja ali anotacije pripisati oznake na različnih anotacijskih nivojih : grafemskem , fonetičnem , prozodijskem .

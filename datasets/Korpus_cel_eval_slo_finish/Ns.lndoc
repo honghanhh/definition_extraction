@@ -1,0 +1,24 @@
+Kot cilj smo opredelili razvoj sintetizatorja govora , ki naj bi bil sposoben kakovostno samodejno pretvarjati slovenska besedila v govor .
+Naloga iskalnika besedil je iskanje domačih strani na internetu , ki vsebujejo ustrezna besedila v slovenskem jeziku .
+Naloga modula predprocesiranja besedil je pretvorba vhodnih besedil v ASCII tekst .
+– oblikoslovne oznake besede ( besedna vrsta , spol , sklon , število , čas , oseba in stopnja ) ( 7 atributov ) ; – mesto opazovanega zloga v besedi šteto od konca besede ( 1 atribut ) ; – tip naglasa na izbranem samoglasniku ( 1 atribut ) – to je razred , ki ga napovedujemo .
+Tako kot avtorice ogrodja PARADISE ( Walker et al. , 1997a ) smo izbrali en sam parameter uspešnosti naloge : † Kappa koeficient (-) meri uspešnost sistema pri reševanju nalog , ki mu jih naloži uporabnik .
+Zadovoljstvo uporabnikov ponavadi merimo z vprašalniki , v katerih uporabniki podajo stopnjo strinjanja z izjavami o različnih vidikih svoje interakcije s sistemom za dialog .
+Vrednosti , ki so bližje 1 , pomenijo večjo natančnost modela , tj. boljšo linearno zvezo med odvisno spremenljivko in neodvisnimi spremenljivkami .
+Mejno leto za delitev sinhronega in diahronega korpusa je za časopisna in revijalna ter vsa strokovna besedila l. 1990 ; družbene spremembe in posledično seveda jezikovne so narekovale za tovrstna besedila odločitev o tem , da starejših besedil v sinhroni korpus ne vključujejo ( Čermák 1997 : 193 ) .
+Njihova prednost je naslonitev na standard SGML in izjemna prožnost glede uporabe oznak in označevanja elektronskih zbirk na različnih nivojih : v osnovi je za namene označevanja različnih zbirk priporočenih nekaj naborov oznak glede na specifiko besedilnih tipov , ki jih z oznakami TEI označujemo , in sicer za : ( a ) prozni tekst , ( b ) verzni tekst , ( c ) dramski tekst , ( č ) transkripcijo govora , ( d ) besedila pisem in poročil , ( e ) nabora gesel za splošne slovarje , ( f ) nabora gesel za terminološke slovarje in ( g ) korpuse ( Ide 1995 : 69-71).22
+Če je korpus oblikoskladenjsko označen , lahko okolje iztočnice raziskujemo še bolj usmerjeno , in sicer tako , da ob samostalniškem geslu prikažemo vse pridevnike ali predložne zveze .
+« ( Gorjanc , Krek in Gantar 2005 : 5 ) Leksikalna zbirka je zasnovana dosledno korpusno , kar avtorji članka prikazujejo tako s predstavitvijo metodoloških izhodišč gradnje kot tudi z opisom izvedene poskusne analize 783-ih najpogostnejših lem na črko b , kakor se pojavljajo v takrat aktualnem referenčnem korpusu FIDA : » Izhodiščno vodilo je v leksikalni zbirki prikazati aktualno stanje slovenščine na leksikalni ravni : obstoj leksikalnih enot , njihovo dejansko obliko in pomen ter tipično ubesediljenje .
+Luščenje večdelnih besednih nizov , preizkušeno v pričujočem delu , temelji na zaporednosti besed ter pogostnosti niza v korpusu , pri čemer je pozornost posvečena predvsem vzorcem , ki jih z upoštevanjem oblikoskladenjskih oznak iz korpusnih besedil lahko pridobimo : tako s stališča razvrščanja primerov , ki jih posamezen vzorec prinaša , glede na tip , kot tudi s stališča ustreznosti primerom pripisanih oblikoskladenjskih oznak ( II-2.2 ) .
+Del besedila , ki ga z uporabo vzorca iz korpusa avtomatsko izluščimo , imenujemo v pričujočem delu zapolnitev .
+Edino samostojno orodje za preverjanje slovnice , vendar le za operacijski sistem DOS , ponuja podjetje Amebis pod imenom BesAna < http://www .
+Vloga pomeni govor enega govorca , dokler ga ne prekine drug govorec .
+[ 3 ] Metode , ki delujejo na osnovi pravil , so metoda , ki uporablja vmesni jezik , transferna metoda in metoda na osnovi slovarja , pri kateri se besede prevajajo neposredno iz enega jezika v drugega .
+Večjezični pristopi temeljijo na predpostavki , da je semantične oznake v izvornem jeziku preko prevodnega razmerja v poravnanem korpusu mogoče uspešno prenesti v ciljni jezik ( Bentivogli , Forner in Pianta 2004 ) .
+Vhod v lematizator sta poljubna morfološka oblika besede ter tabela RDR drevesa , izhod pa lematizirana beseda .
+Končno množico parametrov , s katerimi opišemo končni izsek nekega signala , imenujemo tudi vektor značilk , posamezne komponente pa značilke .
+Model , poimenovan best , je najboljši model za označevanje neznanih be - sed .
+Dodajamo lahko dva tipa pravil : strukturna pravila oz. omejitve in operativna pravila .
+Iskanje stavkov je del strojnega prevajalnika med angleščino in portugalščino .
+Dodatek izdela leksikon ( seznam vseh besednih obliko z značkami , ki se pojavijo v korpusu ) , seznam možnih značk , ki se uporabijo za neznane besede , učni korpus , neoznačen preskusni korpus in označen preskusni korpus ( za kasnejše primerjave ) .
+Svetovni splet je neizčrpen vir primerljivih besedil , le znati jih moramo poiskati .

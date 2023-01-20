@@ -1,0 +1,3 @@
+Če npr. razmerje predvideva zvezo pridevnika in samostalnika , potrebujemo oblikoskladenjsko označen korpus , kakršen je FidaPLUS ( gl .
+Pri oblikoslovnem označevanju besedila ( kar je ena od faz označevanja besedila , potrebnih za razvoj tehnologije ) se običajno označujejo po posameznih enotah , pri skladenjski analizi besedila pa je v pomoč , če računalnik že ima informacijo o celotni zloženi obliki , prav tako to pomaga pri prepoznavi govora / besedila .
+Češki del korpusa sem označila in lematizirala s pomočjo programa MORČE ( Votrubec Raab 2006 ) , slovenščino pa s programom totale ( Erjavec , Ignat idr. 2005 ) , ki je bil predhodno naučen na korpusu Multext-East .

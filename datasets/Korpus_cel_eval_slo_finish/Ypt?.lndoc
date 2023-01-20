@@ -1,0 +1,3 @@
+Metode , ki gradijo odločitvena drevesa : - ADTree generira alternirajoče odločitveno drevo ( Freund in Mason , 1999 ) .
+Meta metode : - Bagging generira t osnovnih modelov za klasifikacijo in nato posamezne primere klasificira glede na večinsko mnenje osnovnih modelov ( Breiman , 1996 ) .
+Skladenjsko označeni korpusi postajajo pomembni jezikovni viri , saj omogočajo statističen pregled distribucije skladenjskih kategorij na velikem vzorcu besedil dejanske jezikovne rabe – pri čemer skladenjsko analizo ( relativno ) velikega vzorca realnih besedil navadno predpostavljajo in jo , predvsem , napovedujejo – in tako olajšujejo raziskave teoretičnega jezikoslovja ter skladnje posameznih jezikov .

@@ -1,0 +1,6 @@
+Medtem ko je HTML samo točno določen tip dokumentov SGML , je XML poln , čeprav poenostavljen SGML , primeren za hitro obravnavo preko mreže .
+Posameznim besedam so pripisane osnovne oblike oz. leme in oblikoskladenjske oznake .
+Obenem se tudi terminološka veda imenuje terminologija .
+Do neke mere podobna naloga kot identificiranje imen je identificiranje besednih zvez ( phrase chunking ) ; tu je naloga razdeliti stavek na neprekrivajoče se besedne zveze , tipično samostalniške .
+Navsezadnje je krnjenje le okrnjena lematizacija .
+Lema je osnovna oblika besede , geslo , iztočnica .

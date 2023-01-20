@@ -1,0 +1,86 @@
+Metoda , imenujemo jo iskanje s povratno zanko ( relevance feedback ) , temelji na interaktivnem dialogu z iskalcem [ 5 , 6 ] .
+Obravnavam standarde za prenos jezikovnih podatkov po omrežju ( HTML / XML ) , za zapis jezikovnih podatkov v znanstvene namene ( TEI ) in za zapis terminoloških podatkov ( MARTIF , TMX ) .
+EAGLES deli glavne korpuse na : - referenčne : ti predstavljajo osnovno vrsto korpusa in pomemben vir informacij o jeziku in njegovih značilnostih .
+Kodirani nabor znakov , ki se uveljavlja , je ISO 10646.
+Osnovno jezikovno orodje nekega jezika je črkovalnik .
+Možnosti besedne analize so omejene , zato se lotevamo tudi prave stavčne analize , ki poleg morfoloških podatkov pri besedah v slovarju zahtevajo še dodatne sintaktične informacije .
+Korpus FIDA je zgrajen tako , da upošteva mednarodna priporočila za zapis besedil ( standard SGML [ 3 , 4 ] , priporočila TEI [ 5 ] ) , programski del pa temelji na okolju Windows , ki je pri nas trenutno najbolj razširjen operacijski sistem .
+Korpusi so danes nepogrešljiv vir jezikovnih podatkov .
+Konkordance so torej neke vrste osnovni tip korpusne analize ; velikokrat je za nadaljnjo analizo v veliko pomoč že urejanje konkordanc po besedah pred ali za zadetkom ; na tak način dobimo spisek konkordanc , strukturiranih po bližnjih besedah : ob poravnavi pred zadetkom se nam v slovenščini tako npr. združijo pojavitve z levim prilastkom ipd.
+Prav tako predstavljajo besedilni korpusi pomembne vire pri procesiranju naravnega jezika , kjer jih prištevamo med pisne jezikovne vire , kamor sodijo tudi različni leksikoni in drugi slovarji .
+Največji referenčni korpusi so korpusi angleškega jezika , npr. The Bank of English ( http://www.titania.cobuild.collins.co.uk/ ) in BNC , British National Corpus , ( http://info.ox.ac.uk/bnc ), v Sloveniji pa imamo za zdaj korpusa Beseda ( http://bos.zrc-sazu.si/beseda.html ) in FIDA ( http://www.fida.net ) ter nekatere manjše korpuse .
+Orodje SIGMARK omogoča opremljanje signala z oznakami o mejah med posameznimi glasovi .
+V prevajalskem oddelku SVEZ-a je to rešeno z uporabo skupne terminološke baze ( uporabljajo program MultiTerm nemškega podjetja Trados ) , poleg tega prevajalci pri delu uporabljajo tudi program s pomnilnikom prevodov ( Tradosov program Translator's WorkBench ( TWB ) ) .
+Izvajanje šestega okvirnega programa predvideva organizacijo tako imenovanih integralnih projektov ( Integrated Projects – IP ) , ki bodo trajali do pet let s skupnim proračunom posameznih projektov v poprečju od 30 do 50 milijonov evrov ( predviden prispevek EU ) .
+Podatkovni standard je XML .
+Od dostopnih slovarjev za slovenski jezik imamo tako slovar lastnih imen Onomastica ( Kačič , 1997 ) , ki ga distribuira ELRA / ELDA .
+Naglaševanje besed je sestavni del vsakega sistema za sintezo govora .
+Sestavne dele konverzacijskih iger imenujemo konverzacijske poteze .
+) Posebna skupina lastnih imen so imena proizvodov .
+Zanesljiv vir je tudi terminološka zbirka Evroterm , kjer so koristni primeri uporabe in prevodi v druge jezike .
+Prva podskupina kognitivnih označevalcev so označevalci procesov tvorjenja .
+Ideacijski označevalci so predvsem nekateri priredni vezniki in prislovi .
+Označevalci procesov tvorjenja so edina skupina diskurznih označevalcev , ki so pogosteje rabljeni v televizijskih intervjujih kot v telefonskih pogovorih , vendar je razlika minimalna .
+Luščenje leksikonov je sestavni del pri metodah statističnega strojnega prevajanja .
+Pripisovanje oblikoskladenjskih oznak besedam je ena najosnovnejših oblik vključevanja interpretativnih informacij jezikoslovnega tipa v besedilne korpuse oz. podobne jezikovne vire .
+Ponavadi se značilke normirajo z eno izmed metod normalizacije , kot je npr. ukrivljanje značilk ( Pelecanos and Sridharan , 2001 ) , mi pa smo ta korak izpustili , saj smo želeli preveriti , ali je mogoče normiranje značilk nadomestiti z metodo normalizacije na nivoju modela v obliki modela JFA .
+Model GMM lahko vidimo kot poseben primer modela HMM , ki ima zgolj eno stanje .
+Traheoezofagalni nadomestni glas je trenutno najsodobnejši način obnove sposobnosti govora po laringektomiji .
+Ker pa pri tem včasih ne gre za zajemanje celotnih besedil , ampak npr. le posameznih stavkov , v takih primerih govorimo o govornih zbirkah ( Žganec Gros et al. 2003 ) .
+Ko govorimo o korpusnem pristopu v jezikoslovju , srečamo pojma delni in popolni korpusni pristop ( Tognini-Bonelli 2001 ) .
+Cambridge International Corpus ( CIC ) 9 < http://uk.cambridge.org/elt/corpus/ > je besedilna zbirka , o kateri pa ni na voljo prav veliko podatkov , saj je popolnoma zaprta in jo lahko uporabljajo le avtorji , ki pripravljajo publikacije za Cambridge University Press .
+1.1.1 Temeljna vrsta korpusov so referenčni korpusi , ki predstavljajo jezik v njegovi celoviti podobi , seveda ob jasnem zavedanju , da je v korpus nemogoče zajeti vse jezikovne realizacije .
+Strokovne jezike povezujejo mnogi pragmatični in jezikovni dejavniki , zato je mogoče o njih govoriti tudi z enotnega stališča kot o podmnožici splošnega jezika .
+Slednje se tu v najširšem smislu nanašajo na kakršne koli sisteme , ki so zmožni sklepanja oziroma napredne interpretacije podatkov , denimo sisteme za odgovarjanje na vprašanja , semantično podprto poizvedovanje po podatkovnih zbirkah ali odkrivanje znanja .
+Če gradimo korpus za enega od bolj podprtih jezikov ( angleščina , bolgariščina , francoščina , italijanščina , nemščina , nizozemščina , ruščina , španščina ) , je na voljo tudi oblikoslovno označevanje s označevalnikom TreeTagger .
+Ena pogosto omenjanih statistik , ki se uporablja za odkrivanje kolokacij , je Pearsonov test Χ2 ( Manning in Schütze 2000 : 169 ) .
+Kot smo pojasnili že nekajkrat , sodita definicija oziroma razlaga na raven jezika , saj se tipično nanašata na vsa alternativna poimenovanja pojma .
+12 http://www.w3.org/XML/ 13 http://www.tei-c.org/ 14 http://www.lisa.org/Term-Base-eXchange.32.0.html 15 http://langtech.jrc.it/DGT-TM.html 16 http://nl2.ijs.si/corpus/index-bi.html 17 http://nl2.ijs.si/index-mono.html 18 http://www.islovar.org 19 http://www.korp.fdv.uni-lj.si/ 20 Predvsem korpusi prve generacije , na primer Brown ali LOB , niso vključevali besedil v celoti , ampak je bil iz vsakega besedila izbran vzorec določene velikosti .
+Med slednje spada lažja računalniška obdelava gradiva , saj je korpus zbirka gradiva v elektronski obliki .
+Terminološkost je značilnost strokovnega jezika .
+Termini so največkrat samostalniške besedne zveze , ki sledijo predvidljivim oblikoskladenjskim vzorcem .
+Sketch Engine je spletni program , v katerega naložimo primerno oblikoskladenjsko označen besedilni korpus v kateremkoli jeziku .
+Korpusi so povsem drugačen jezikovni vir kot slovarji , saj so v njih zbrana besedila , ki so odsev jezikovne realnosti .
+Pridobljeni podatki so bili nato podrobneje razčlenjeni s pomočjo nekaterih korpusnih orodij ( WordSmith Tools , Sketch Engine ) , izbrani termini pa so bili v glosarski obliki obdelani v programu MultiTerm .
+Ko govorimo o korpusnem pristopu v jezikoslovju , srečamo pojma delni in popolni korpusni pristop ( Tognini-Bonelli 2001 ) .
+V prvem delu obravnavamo standarde za računalniški zapis besedil , predvsem XML ( eXtended Markup Language ) in TEI ( Text Encoding Initiative ) , v drugem pa orišemo nekaj bolj zanimivih ravni jezikoslovnega označevanja korpusov .
+Dokumenti XML so tako strukture z dobro poznanimi formalnimi lastnostmi , t. i. drevesa .
+1 Najpomembnejši korpusni viri , ki vključujejo slovenski jezik : vzporedni korpusi slovenskih in angleških besedil IJS-ELAN , TRANS , Evrokorpus , referenčni korpus slovenskega jezika FIDA in korpus Nova beseda .
+Tako je eden osrednjih ciljev projekta LC-STAR postaviti standarde , po katerih se bodo razvijali jezikovni viri za strojno simultano prevajanje govora , saj so primerljivi in usklajeni viri v različnih jezikih eden od temeljev za uspešen razvoj sistemov .
+WinAlign je komponenta za poravnavo že pred časom prevedenih besedil , ki jih je potrebno vključiti v pomnilnik prevodov .
+TEI ( Text Encoding Initiative ) so priporočila , ki jih upošteva večina projektov , ki zbira jezikovne vire .
+2 http://www.ilc.cnr.it/EAGLES/home.html 3 Za fonemski in fonetični zapis priporočajo uporabo fonetične abecede SAMPA oz. X-SAMPA 1.
+3 Izhodišča za definiranje pravil transkribiranja Referenčni govorni korpus slovenskega jezika predstavlja zbirko govorjenih besedil , pri kateri lahko predvidevamo zelo različne iskalce z zelo različnimi predznanji , koncepti in interesi .
+Statistično strojno prevajanje Razdelek predstavlja osnovne pojme statističnega strojnega prevajanja - SMT ter osnovne motivacije za razvoj te mlade in do sedaj zapostavljane veje računalništva .
+Osnova korpusnega jezikoslovja , kot že ime pove je korpus , predstavljene so osnovne različice največkrat uporabljenih in pripravljenih korpusov .
+Morfologija je najnižja raven tekstualne analize besedil , zaradi česar imajo morfološko komponento skorajda vsi programi za obdelavo naravnega jezika .
+Prevodne ustreznice za literale , ki imajo v PWN samo en pomen in jih torej ni potrebno razdvoumljati , smo izluščili iz prostodostopnih spletnih virov , kot so Wikipedija , Wikislovar , Wikivrste in Eurovoc ( glej Fišer in Sagot 2008 ) .
+2.1.3.2 Na vedenju temelječi sistemi strojnega prevajanja Na vedenju temelječi sistemi so se začeli razvijati na predpostavki , da je za visoko kvalitetno strojno prevajanje , ki ne bi zahtevalo kasnejšega ročnega popravljanja , nujno razumevanje pomena besedila in razmerij med pojmi .
+V slovenskem prostoru so raziskave izrazov , ki nastopajo v vlogi diskurznih povezovalcev , manj pogoste , vseeno jih je nekaj , vendar z različnimi poimenovanji in iz različnih zornih kotov : diskurzni označevalci ( Kranjc , 1999 ) , konektorji ( Gorjanc , 1998 ) , besedilni povezovalci ( Smolej , 2004a ) , metabesedilni elementi ( Pisanski , 2002 ) .
+Diskurzne označevalce šteje za podskupino pragmatičnih označevalcev .
+Diskurzni označevalci ( npr. konec koncev , poleg tega ) so četrti tip znotraj pragmatičnih označevalcev .
+Tradicionalno so eee , mmm in podobni » izrazi « imenovani mašila in niso posebej obravnavani : v slovnici ( Toporišič , 2000 ) in slovarjih ( SSKJ , SP2001 ) niso zabeleženi .
+Koncept diskurznih označevalcev je po eni strani zelo ohlapen in težko je definirati končno število izrazov v tej vlogi , po drugi strani pa je med drugim zamejen z rabo predvsem v pragmatični vlogi .
+Relacijski modeli uporabljajo De Saussurova sintagmatska in paradigmatska razmerja .
+Semantične mreže so popularen način reprezentacije znanja , uporabiti pa jih je mogoče tudi za sklepanje ( Sowa 1992 ) .
+7.4 Razprava in možnosti za izboljšavo semantičnega označevanja Semantično označevanje , ročno ali avtomatsko , je eno najtežjih vrst označevanja korpusa .
+39 3.3.2 Implementacija CSLU razpoznavalnika " CSLU Toolkit " 1 je programski paket , ki je nastal na Univerzi v Oregonu2 .
+Druga vrsta odnosov so nadpomenke ( oz. podpomenke ) .
+Z uporabo 600-milijonskega korpusa Fida + je mogoče priti do precej zanesljivega podatka o tem , kateri pomeni manjkajo ( besed , ki nimajo nobenega pomena , je približno 3,8 odstotka , kar je na prvi pogled videti malo , v resnici pa je to skoraj vsaka 25. beseda brez vnesenih pomenov oz. je beseda brez pomenov v vsakem tretjem stavku – in takega stavka že ni mogoče uporabiti pri razbiranju tematike ) .
+Poslovna pravila , tako kot ontologije , izhajajo s področja umetne inteligence , kjer se uporabljajo kot način predstavitve znanja .
+S t r a n 14 4 4. pog l a vj e | Eva l ua c i j a 4.1.1.1.1 Sprehod po semantični mreži in dodajanje omejitev Semantična mreža je pri ontologijah , zapisanih v jezikih semantičnega spleta , sestavljena iz entitet in aksiomov .
+Pomembna lastnost , ki je prispevala k uspehu svetovnega spleta , je njegova odprtost .
+V okviru doktorske disertacije smo se osredotočili na vidike opredelitve ontologij , ki so osnovni gradniki semantičnega spleta .
+Skladenjsko razčlenjevanje predstavlja enega od postopkov analize besedila , točneje posameznih povedi , v okviru aplikacij , kot so strojno prevajanje , luščenje informacij , odgovarjanje na vprašanja ipd. ( slika 1.1 ) .
+7.2 Izvirni prispevki znanosti Glavni izvirni prispevek k znanosti je algoritem ARISiN za iskanje stavkov in naštevanj v slovenskem besedilu .
+Zaradi teh razlogov je bilo razvojno okolje za spletno aplikacijo vzpostavljeno z namestitvenim programom XAMPP [ 18 ] za operacijski sistem Windows .
+Lematizacija je osnovna funkcija mnogih sistemov za obdelano naravnega jezika .
+2.3 Tehnika podpornih vektorjev 2.3.1 Ideja Tehnika podpornih vektorjev je relativno nova družina metod s področja stro - jnega učenja [ 3 ] .
+2.7 Ostala znakovna jedra 2.7.1 Jedro podzaporedij Ideja jedra podzaporedij ( angl. substring sequence kernel ali SSK ) je podobna jedru z n-grami [ 7 ] .
+3.1.1 Formantna sestava govora Formantna sestava govora je prva prava računalniška metoda sestave govora in je prevladovala do zgodnjih 80-tih let dvajsetega stoletja .
+V nadaljevanju si bomo pogledali samo metode sestave govora s pomočjo izbire glasovnih enot ( Unit Selection Synthesis ) , ki prevladujejo med metodami tretje generacije sistemov za sestavo govora in danes tvorijo tudi najkakovostnejši umetni govorni signal .
+Sistemi strojnega prevajanja so le eno izmed prevajalskih orodij .
+Program s pomnilnikom prevodov je lahko integriran v urejevalnik besedila ( npr. Microsoft Word ) , lahko pa je samostojna programska oprema , v katerega uvozimo dokument , ki ga želimo prevesti .
+• Pisni korpus ; Pisni korpus zajema pisna besedila in prvotno pisna besedila , namenjena govorjenju .
+V nadaljevanju bomo predstavili revolucionarni sistem iCORE , ki vsebuje vse značilnosti sodobnih iskalnih sistemov , poskuša razumeti uporabnika in mu predstavi informacije v obliki , ki jih želi .
+Enako lahko uporabimo tudi druge ontologije , kot je WordNet , Cyc .

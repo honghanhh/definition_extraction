@@ -1,0 +1,2 @@
+Tako sem našel paket nltk ( Natural Language Toolkit ) , ki je zbirka modulov za programski jezikpython .
+3.1 KOMPONENTE Komponente za GATE imajo skupno ime CREOLE , kar je angl. kratica za » Collection of REusable Objects for Language Engineering « in so razdeljene na tri tipe ( namenoma pisano v angleščini in skupaj ) : Programsko ogrodje za procesiranje besedil v naravnem jeziku 23 LanguageResources ( LR ) predstavlja jezikovne vire , kot so leksikoni , korpusi in ontologije .

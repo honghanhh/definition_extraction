@@ -1,0 +1,5 @@
+Korpus je zapisan po standardu XML ( eXtenden Markup Language ) , skladno s priporočili TEI P4 ( Sperberg-McQueen and Burnard , 2000 ) .
+Glede na namen podatkov za razvoj končnega produkta ločujemo jezikovnotehnološke leksikalne zbirke od slovarskih .
+Ta izvedenka SGML se imenuje XML < http://www.w3.org/XML/ > ( eXtended Markup Language ) ; prva različica specifikacije je bila objavljena leta 1998 , druga , trenutno zadnja , ki je popravila nekatere napake iz prve , pa leta 2000.
+4 Skladenjsko označevanje in razčlenjevanje korpusov sta sicer dva različna postopka , pri gradnji skladenjsko označenih korpusov pa vključujemo oba .
+29 Elektronski slovarji imajo tudi to prednost , da jih hitreje posodabljamo in nadgrajujemo .

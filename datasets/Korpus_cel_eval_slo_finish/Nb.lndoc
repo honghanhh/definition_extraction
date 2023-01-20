@@ -1,0 +1,68 @@
+Glavni del programa predstavlja splošni jezikovno neodvisni sistem za učenje govora , drugi modul je urejevalnik baze .
+Prevajalski projekt s Tradosom ne bi mogel uspeti , če z njim ne bi bili zadovoljni prevajalci , ki morajo z njim tudi največ delati , in naročnik , od katerega je odvisno nadaljevanje projekta .
+Takšne besedne oblike se med seboj ločijo po besedni vrsti , spolu , sklonu , številu ali pa le po pomenu .
+Procesiranje je bilo izvedeno s pomočjo niza skript v programskem jeziku Perl , končni pretvorjeni korpus FidaPLUS pa imenujemo Fida+X .
+V pričujoči raziskavi uporabljena metoda je luščenje podatkov na osnovi oblikoskladenjskih oznak .
+Za označevanje korpusa FidaPLUS je bil uporabljen sistem oblikoskladenjskega označevanja , ki je nastal v okviru projekta Multext-East .
+V pričujoči raziskavi uporabljena metoda je luščenje podatkov na osnovi oblikoskladenjskih oznak .
+III-3.1 Osnova nadgradnje zbirke je referenčni korpus slovenskega jezika , v nadaljevanju ( ključno je neprekinjeno nadgrajevanje zbirke ) pa je predvidena tudi uporaba drugih jezikovnih virov , npr. specializiranih korpusov , strojnoberljivih slovarjev , interneta itd.
+Del besedila , ki ga z uporabo vzorca izluščimo , imenujemo vzorčna zapolnitev .
+Deloma obdelane in organizirane podatke imenujemo izluščeni besedni nizi .
+Naslednji korak raziskave je ročni pregled vzorčnih zapolnitev za najpogostejše ( okrog 100 za vsak seznam ) vzorce s štirimi lemami , pajek , strasten , plesati ter temeljito .
+Vzorčni tipi so izhodišče za luščenje besednih nizov , analiza katerih se vrača k obravnavi ostalih v oznakah pripisanih oblikoskladenjskih kategorij .
+Analizirani vzorčni tipi so : pajek + Sam ( pajek skakač ) , pajek + Sam2 ( pajek širine ) , pajek + Sam3 ( pajek olivi ) , pajek + SamLI ( pajek Pottinger ) ter Sam + pajek ( obračalnik pajek ) , Sam + pajek2 ( vrsta pajka ) .
+Analizirani vzorčni tipi so : pajek + Prid ( pajek dvovretenski ) , Prid + pajek ( rdeč pajek ) , pajek3 + Prid ( pajku podoben ) ter Prid + pajek3 ( podoben pajku ) .
+Kljub zavedanju da z luščenjem dvo - ter tridelnih vzorcev ni mogoče doseči zadovoljivega priklica zvez , ki posegajo na skladenjsko raven jezika ( npr. med samostalnikom v vlogi osebka ter glagolom v vlogi povedka ) , so vzorci , ki vsebujejo oznako za glagol , v raziskavi analizirani .
+Drugi analizirani vzorčni tipi so : Sam + strasten ( Slovenci strastni ) , strasten + Prid ( strasten ljubezenski ) , Prid + strasten ( nov strasten ) , Prisl + strasten ( najbolj strasten ) ter Glag + strasten ( preživeti strasten ) .
+Vzorčni tipi , ki vsebujejo glagol , so predstavljeni ločeno zaradi pričakovane višje stopnje posega na skladenjski nivo jezika , kar posledično pomeni manjšo ustreznost obravnavane metode za pridobivanje teh podatkov .
+Največji problem metode je dolgotrajnost obdelave podatkov .
+Za luščenje podatkov iz celotnega referenčnega korpusa je predvidena izdelava celovitega avtomatiziranega postopka , ki na čim bolj enostaven način združuje vse v pričujoči raziskavi opisane elemente ( iskanje relevantnih besednih zvez , razvrščanje in štetje zvez , ustrezen prikaz besednih zvez ) .
+Takoj ko je bil v izhodišče postavljen vidik nemonolitnosti jezikovne pojavnosti , je idealni naravni govorec nezadosten , saj njegovo jezikovno vedenje ne more zajeti celotne jezikovne pojavnosti in njene variabilnosti .
+Priloženi podatki so opisi govornih dejavnikov , dejavnikov govorcev ter zapisi in označitve posnetega govora .
+Korpusi so dandanes že standardno shranjeni na računalnikih , saj ti po eni strani omogočajo kompaktno in poceni hranjenje ter razširjanje velike količine besedil , po drugi strani pa ta besedila lahko z njimi bolj učinkovito izkoriščamo .
+Izjema so prazni elementi ( primer je < pb / > spodaj , ki naj bi označeval prelom strani ) , ki imajo za razliko od tistih z vsebino samo eno oznako , ta pa se končuje s poševnico .
+< / l > < / lg > < / div > Slika 1 : Primer dokumenta XML Drevesni model označevanja je intuitivni in enostaven za računalniško obdelavo , ni pa zadosten za vse vrste struktur .
+Nize , definirane s to metodo za nadomeščanje , imenujemo entitete .
+Dokumenti XML , ki vsebujejo ali se sklicujejo na DTD , so pravilni ( valid ) , tisti , ki pa se ne , vendar pa so vseeno zapisani po pravilih XML , pa so dobro oblikovani ( well-formed ) ; primer dobro oblikovanega dokumenta XML je bil podan v Sliki 1. < !
+TEI je bil vpliven tudi pri označevanju korpusov , kjer je mogoče najbolj znan primer Britanski nacionalni korpus , pri nas pa so bili v skladu s priporočili TEI zapisani , med drugim , korpusi MULTEXT-East ( Erjavec 2001 ) , IJS-ELAN ( Erjavec 2002a , 2001b ) in FIDA ( Erjavec et al. 1998 ) ; primere iz teh korpusov bomo srečali v nadaljevanju članka .
+Kot primer je v Sliki 3 podana parametrizacija TEI , ki jo uporabljamo za korpus MULTEXT-East ; ta definira , da uprabljamo XML različico TEI P4 z osnovnim naborom za prozo ter dodatnimi nabori za povezovanje , jezikoslovne analize , lastnostne strukture in korpuse .
+ENTITY % TEI.corpus " INCLUDE " > ]> Slika 3 : Primer TEI DTD 2.5 Standard za zapis korpusov CES TEI podaja med drugim tudi določila za označevanje korpusov , ki smo jih tudi sami uporabljali pri zapisu večine naših korpusov .
+Za slovenski jezik je največja ovira za kvalitetno označevanje oblikoslovnih lastnosti pomanjkanje velikega ročno označenega korpusa , ki bi lahko služil kot učna množica .
+Uporabno je tudi , podobno kot identifikacija imen , v sistemih za zajemanje informacij pa tudi v večjezičnih korpusih ( oz. sistemih za ekstrakcijo leksikonov in avtomatsko prevajanje ) , saj se prevodne ustreznice dostikrat najde šele na ravni besedne zveze in ne besede .
+Vzporedni večjezični korpusi so tipični primer , ko je smiselno vzpostaviti povezave ( vsaj ) med stavki originala in prevodov .
+Slika 8 nam poda primer takšnega označevanja iz korpusa MUL-TEXT-East , kjer je prva poravnava 1-1 , druga 2-1 in tretja 1-0. < link xtargets = " Osl.1.1 ; Oen.1.1 " > < link xtargets = " Osl.1.2 Osl.1.3 ; Oenl.1.2 " > < link xtargets = " Osl.1.4 ; "> Slika 8 : Primer povezav CES Povezovanje se uporablja tudi pri enojezičnih korpusih oz. elektronskih izdajah , bodisi za povezave znotraj dokumenta , predvsem pa , kadar nas zanimajo različne izdaje istega dela .
+Najkvalitetnejši govor bi pridobili iz zbirke , kjer bi bile posnete vse možne besede in besedne zveze , ki se pojavljajo v slovenskem jeziku , v vseh možnih kontekstih in besednih zvezah .
+- Rezultat : Končni rezultat predstavlja zbirka s 1200 povedmi , ki vsebuje vsa glasovna zaporedja iz večje zbirke .
+- Rezultat : Končni rezultat predstavlja zreducirana zbirka povedi ( izhodiščno število povedi je bilo 200 , 000 ) .
+Ker pomnilnik prevodov nima vgrajenih modulov za morfosintaktično analizo prevodnih enot , ampak je sposoben prepoznavati podobnost le na ravni besed ali besednih nizov , je teoretično uporaben za vse jezikovne pare , praktično pa za vse jezike , za katere je zagotovljena znakovna podpora .
+Računalniška zbirka besedil z določenega strokovnega področja je izredno dragocen vir pri gradnji terminoloških bank , če pa imamo na razpolago ustrezna računalniška orodja , je mogoče le-to celo delno ali povsem avtomatizirati .
+Kot zadnji nastopa modul za združevanje osnovnih govornih enot , katerega rezultat je digitalni zapis umetnega govora , ki ga predvajamo preko zvočne kartice računalnika .
+Sintetizirani govor , pri katerem so upoštevane le srednje vrednosti osnovne frekvence in trajanja posameznih glasov , zveni močno nenaravno [ 11 ] .
+Takšne besedne oblike se med seboj ločijo po besedni vrsti , spolu , sklonu , številu ali pa le po pomenu .
+Učna množica je vsebovala 140.821 besed ( 513.309 samoglasnikov ) , testna množica pa 51.311 besed ( 187.031 samoglasnikov ) .
+Naš sintetizator govora vsebuje oblikoslovni označevalnik , ki je sposoben obravnavati nepoznane besede , vendar trenutno še ni dovolj zanesljiv ( zaradi premalo obsežnega morfološko označenega korpusa besedil ) .
+Ker pomnilnik prevodov nima vgrajenih modulov za morfosintaktično analizo prevodnih enot , ampak je sposoben prepoznavati podobnost le na ravni besed ali besednih nizov , je teoretično uporaben za vse jezikovne pare , praktično pa za vse jezike , za katere je zagotovljena znakovna podpora .
+Tako imenovani faktor ponavljanja se lahko kaže na različne načine in na različnih ravneh besedila , od njega pa je odvisna tudi presoja najbolj primernega prevajalskega postopka .
+Že programska oprema je precejšnja denarna investicija , poleg tega pa je treba zagotoviti ustrezno strojno opremo in infrastrukturo , organizirati izobraževanje delavcev in izdelati povsem novo strategijo upravljanja z besedili in podatkovnimi zbirkami .
+Funkcijo bomo poimenovali prevajalni model ( translation model ) .
+P ( e ) predstavlja apriorno verjetnost , da se je poved e pojavila na vhodu prevajalnega kanala , to funkcijo poimenujemo jezikovni model ( language model ) .
+GOVORNE TEHNOLOGIJE : PRIDOBIVANJE IN PREGLED GOVORNIH ZBIRK ZA SLOVENSKI JEZIK Govorne zbirke so nepogrešljive pri raziskovalnem delu na področju tehnologij govorjenega jezika .
+Priloženi podatki so opisi govornih dejavnikov , dejavnikov govorcev ter zapisi in označitve posnetega govora .
+Pogosto govorni zbirki priložimo še navodila za uporabo ter rezultate izbranih analiz govornih posnetkov .
+Govorne zbirke so nepogrešljive pri raziskovalnem delu na področju govornih tehnologij .
+Priloženi podatki so opisi govornih dejavnikov , dejavnikov govorcev ter zapisi in označitve posnetega govora .
+Pri razvoju sistemov za samodejno tvorjenje govora pa se uporabljajo zbirke z le nekaj govorci .
+Poleg običajnega grafemskega zapisa tako govorimo o fonemskem , ožjem in širšem fonetičnem ter akustičnofonetičnem zapisu .
+Pri označevanju prav tako govorimo o fonemski , širši in ožji fonetični , akustičnofonetični ter prozodijski označitvi govornih posnetkov , podobno kot pri simbolnih zapisih in prepisih govora .
+Z uporabo Tradosa nastajajo tudi tekoči stroški , ki vključujejo stroške vzdrževanja strojne ( nadgradnje in nove različice ) in programske opreme ( zamenjava in nakup dodatne potrebne opreme ) , stroški vodenja projekta ter stroški vzdrževanja in posodabljanja pomnilnika prevodov in terminološke baze .
+Začetni pomnilnik prevodov , ki smo ga napolnili s starimi prevodi , je štel 4.825 prevodnih enot , do sedaj pa je narasel na 50.107 prevodnih enot .
+Velikost pomnilnika prevodov ob koncu raziskave je bila 19.046 KB , zato postaja problematično pošiljanje baze in besedil po elektronski pošti , še posebej če prevajalci nimajo zmogljive internetne povezave .
+V pomnilniku prevodov , ki smo ga pridobili z osnovnim projektom , smo obrnili izvorni in ciljni jezik in tako dobili referenčno bazo , ki jo lahko uporabljamo pri prevajanju iz angleščine .
+saj veste da so pri [ p@r ] pri [ p@r ] [ angl - ] magic life [ IZG ] [ - angl ] [ + SMEH ] mislim pri [ p@r ] [ angl - ] magic lifih [ - angl ] pri [ p@r ] teh [ angl - ] all inclusivih [ - angl ] [ + SOGOVORNIK _ jaja ] je [ + SOGOVORNIK _ jaja ] tudi [ t / u:t ] ljudi [ lud / i : ] odvisno kako [ k \ ak ] ne ?
+Pri oblikoskladenjskem označevanju na primer vse enote označujemo z istim naborom kategorij , pri označevanju pomena besed pa moramo za vsako besedo uporabiti drugačne kategorije .
+Izdelani wordnet s tem zapolnjuje vrzel v jezikovnih virih za slovenščino in postavlja temelje za širšo , semantično obogateno izrabo slovenskih korpusnih virov .
+MSD oznake pod besedami so izpisane ležeče , oznake besednih vrst in sklonov so podčrtane .
+Funkcijo bomo poimenovali prevajalni model ( translation model ) .
+Izhod predhodnega modela je vhod za naslednji model , izhod zadnjega modela je naučen sistem .
+Kot končni glas lahko tudi nastopa poljuben glas , ki je zadnji v neprekinjenem zaporedju glasov od začetka govorjenja , ali pa zadnji glas pred premorom v izgovorjavi .
+Uporaba prevajalnika je marec 2008 ) brezplačna .

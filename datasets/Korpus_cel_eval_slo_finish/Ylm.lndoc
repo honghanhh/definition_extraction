@@ -1,0 +1,1 @@
+To smo storili s pomočjo programa totale ( Erjavec et al. , 2005 ) , ki besedilo naprej tokenizira ( razdeli besedilo na besede , ločila in povedi ) , nato oblikoslovno označi ( vsaki besedi pripiše njeno oblikoslovno oznako iz nabora MULTEXT-East za slovenski jezik ) in lematizira ( določi besedam njihovo osnovno obliko ) .

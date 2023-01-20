@@ -1,0 +1,12 @@
+Oznake v TMX so prilagojene specifiki pomnilnikov prevodov , medtem ko je zapis TEI precej bolj splošen in s tem tudi bolj dolgovezen .
+3 To se med drugim kaže že skozi poimenovanje področja , saj se namesto o terminološki vedi ( Terminology Science ) v zadnjem desetletju raje govori o terminoloških tehnologijah ( Terminology Engineering ) oziroma upravljanju terminologije ( Terminology Management ) .
+Korpusno jezikoslovje je jezikoslovje od spodaj navzgor , je jezikoslovje parole .
+TEI je kot osnovo svojega zapisa vzel SGML .
+Navadno velja , da so drevesnice , zgrajene na podlagi frazne gramatike , bolj berljive od odvisnostnih , saj besedni red pri predstavitvi odvisnostnih razmerij ni vedno ohranjen ( Verdonik 2004 : 208 – 211 ; Priporočila za skladenjsko označevanje korpusov iniciative EAGLES ; Abeillé 2003 : XVII ) .
+Nadpomenskost in podpomenskost sta inverzni relaciji : če je y neke vrste x , potem je x nadpomenka besede y , y pa podpomenka besede x. Uvrščevalne pomenske sestavine nastopajo v nadpomenski vlogi , razločevalne pa v podpomenski , zato sta obe relaciji asimetrični in tranzitivni ( Muha 2000 : 174 – 177 ) .
+Z logičnega vidika ločujemo med medleksemsko nasprotnostjo ( npr. dan – noč ) in dopolnjevalno protislovnostjo ( npr. moški – ženska ) .
+• Tradicionalno jezikoslovje je temeljilo predvsem na raziskovanju pisnega diskurza , spontan govorjeni diskurz je običajno predmet raziskav na področju analize diskurza .
+Nekateri raziskovalci ločijo neformalni vsakdanji pogovor ( npr. klepet s prijatelji ) od institucionalnega pogovora v okviru institucij ( npr. predstavitev dokazov na sodišču ) ( Pomerantz in Fehr , 1997 : 64 ) ter prištevajo k pogovorom samo neformalni pogovor .
+Vendar je v citiranem članku ta enota večja od enote , ki jo v analizi diskurza običajno pojmujemo kot izjavo , in sicer avtorja govorita o govorjenem odstavku , ki ga poimenujeta » po analogiji z definicijo tega pojma v pisanju « ( Vitez , Zwitter Vitez , 2004 : 10 ) .
+Namen ontologije se razlikuje od namena slovarja , saj ontologija skuša zajeti in predstaviti pomen določenih domen , množice domen ali celotnega sveta , ker skuša eksplicitno simulirati razumevanje , ki ga ima človek v svojih mentalnih modelih problemske domene ali sveta .
+Glavna razlika med NLP in tekstovnim rudarjenjem je v tem , da se tekstovno rudarjenje običajno ne ukvarja z razumevanjem besedila , ampak zgolj z iskanjem vzorcev v besedilih , medtem ko NLP besedilo poskuša razumeti .

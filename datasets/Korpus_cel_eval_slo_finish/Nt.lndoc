@@ -1,0 +1,37 @@
+Kot primer podajam spodaj element ENTRY , ki pri izbranem slovarskem modulu TEI zajema , en geselski članek slovarja .
+V opisu zapisa < encodingDesc > so opisane oznake v korpusu oz. besedilu ; tu je podano , katere in kolikokrat se posamezne oznake v besedilu uporabijo in v primeru , da so dodatno definirane glede na nadrejeno dokumentacijo , kaj pomenijo .
+Pri razpoznavanju tekočega govora ločimo tri vrste napak : zamenjavo , brisanje in vrinjanje .
+Posnetke brez šuma smo poimenovali čisti posnetki .
+Posebnost pri analizi obrazov za pridobivanje teh značilk je , da nas večinoma zanima le spodnji del obraza , to je področje ust z okolico in spodnja čeljust .
+- Število manjkajočih odzivov ( NMR ) meri razliko med številom potez sistema in številom potez uporabnika .
+- Število preverjanj ( NCM ) in delež preverjanj ( CMR ) merita število oz. delež potez , s katerimi sistem prosi za potrditev informacij , ki jih pridobi na osnovi zgodovine dialoga .
+- Število podanih informacij ( NGD ) in delež podanih informacij ( GDR ) merita število oz. delež potez , s katerimi sistem uporabniku poda iskane informacije , ki jih najde v podatkovni zbirki .
+Magnetogrami sej vsebujejo zapise razprav , ki so jih pripravili v državnem zboru .
+V tako zgrajenem grafu lahko iskanje optimalnega zaporedja govornih segmentov definiramo kot iskanje najboljše poti med poljubnim izhodiščnim vozliščem grafa ( prva stopnja grafa ) in poljubnim končnim vozliščem grafa ( zadnja stopnja grafa ) , pri čemer povezave med vozlišči grafa določajo možne poti .
+Pri predmetu najprej izluščimo leva prilastka , ki sta svojilna zaimka , na koncu pa je treba izenačiti frazo ordinateur portable ( 88ffd + 95750 ) in pomen besede laptop ( ki je prenosni računalnik ( 589f94 ) ) .
+Večjezični korpus turističnih besedil je jezikovnotehnološki projekt , ki nastaja na Znanstvenoraziskovalnem središču Univerze na Primorskem pod vodstvom dr. Vesne Mikolič , financira pa ga Agencija za raziskovalno dejavnost Republike Slovenije ( ARRS ) kot tematsko usmerjeni temeljni raziskovalni projekt .
+Referenčni korpus hrvaškega jezika - Hrvaški nacionalni korpus - < http://www.hnk.ffzg.hr > se oblikuje na Zavodu za lingvistiko Filozofske fakultete v Zagrebu , zajemal naj bi hrvaščino , kot se pojavlja v sodobni komunikaciji 90-ih let , in sicer v velikosti 30 milijonov besed ( Tadić 1998 : 338 , 340 ) .
+Lastnosti pojma lahko zajemajo materialne značilnosti , kot so barva , oblika , velikost in sestava ( krožna ( žaga ) , enakostranični ( trikotnik ) ) , značilnosti , ki se nanašajo na namen , denimo način uporabe , delovanje , učinek ( vzvratna ( prestava ) , kreditna ( kartica ) ) ; izvor pojma , vključno z imenskimi sestavinami pri izumih , deželah izvora ali proizvajalcih ( Evklidska geometrija , Citroën C6 ) , in druge razlikovalne lastnosti ( prim. Felber 1984 : 117-123 ) .
+Slika 14 : Dvobesedne enote v orodju Wordlist Orodje Wordlist pa pod jezičkom Statistics ob vsaki izdelavi besednega seznama predstavi tudi osnovne podatke o korpusu .
+Podjetje Amebis ponuja prevajalnik , ki zna prevajati iz slovenščine v angleščino , na voljo pa je kot programski paket v treh različnih izvedbah < http://presis.amebis.si >, preizkusiti ga je mogoče tudi preko svetovnega spleta < http://presis.amebis.si/prevajanje.asp >, kjer omogoča prevajanje besedila z največ petsto besedami .
+Opis sprememb < revisionDesc > omogoča označevalcem , da zabeležijo zgodovino sprememb , ki so se vršile nad elektronskih besedilom med njegovim nastajanjem ; podatek je pomemben za nadzor nad različicami dokumenta ( version control ) in za razreševanje vprašanj o zgodovini datoteke .
+Signal za končanje pogovora je v analiziranih pogovorih dveh vrst : to so diskurznimi označevalci dobro , v redu , okej ali prav in zahvaljevanje ( hvala , najlepša hvala , lepa hvala itd. ) .
+6.2.1.1 Pragmatične vloge ja V rabah , kjer ja izraža pritrjevanje , pritrdilen odgovor na sogovornikovo vprašanje , je ja pomemben del propozicijske vsebine , njegov predstavni pomen lahko opišemo tudi z besedno zvezo tako je .
+Eee sredi izjave in na koncu izjave ( ki je pogosto nedokončana izjava ) je znak govorca , da še ni povedal vsega , kar je nameraval : [ TAko40.trs ] Ako2 : tako [ t / a:k ] da to je v štartu eee sila komplicirana zadeva ko se enkrat odločiš pač to tako [ t / a:k ] je ne ?
+6.2.9.1 Pragmatične vloge zdaj Izraz zdaj torej v osnovi izraža časovno dimenzijo , v vseh vlogah , tudi kot diskurzni označevalec .
+S korpusnim pristopom , ki ga opisujem v nadaljevanju , sem postopek izdelave wordneta nadgradila z avtomatskim razreševanjem večpomenskosti iztočnic s pomočjo večjezičnih leksikonov , ki sem jih izluščila iz vzporednega korpusa , in wordnetov za druge jezike .
+Nato sem napake v sinsetih razvrstila v različne skupine : 1. napačni literal v sinsetu je nadpomenka pojma , ki ga sinset označuje ( v sinsetu je bolj splošen izraz ) , 2. napačni literal je podpomenka pojma ( bolj specifičen izraz ) , 3. napačni literal je semantično povezan s pojmom , ki ga označuje sinset ( meronim , holonim , protipomenka ) , 4. literal je napačen , ker večpomenskost ni bila pravilno razrešena ali ker napako vsebuje že leksikon ( največja napaka ) .
+Dodana končnica ( DK ) je tisti del končnice , ki je bil dodan v zadnjem vozlišču glede na nadrejeno vozlišče .
+GRADNJA LEMATIZATORJEV Naloga modula LemBuild ( poglavje 3 ) je gradnja strukture lematizatorja iz datoteke RDR pravil .
+UČENJE RDR PRAVIL Modul učenja pravil iz učnih primerov ( poglavje 4 ) se imenuje LemLearn .
+Poznane besede so tiste besede , ki so bile na voljo v času učenja .
+Obstoječe metodologije za razvoj ontologij v splošnem skušajo opredeliti aktivnosti za obvladovanje ontologije , aktivnosti za razvoj ontologije in podporne aktivnosti .
+Indikator popolnosti ontologije ( podrobnosti so predstavljene v poglavju 3.3 ) opredeljuje raven ontologije , ki uporabniku prikazuje , do katere mere je ontologija dokončana in kakšne so možnosti vključitve obstoječe ontologije v obliki funkcionalne komponente v ostale sisteme .
+Na tem področju je nastala množica programskih rešitev , ki odkrivajo imenovane biološke in genske entitete , iščejo povezave med geni in njihovimi produkti , nudijo specializirano iskanje in vizualizacijo podatkov ( npr. povezav med geni ) ; vse to na podlagi besedil iz člankov in literature tega področja .
+3.3.1 AnnotationDiff AnnotationDiff je orodje , s katerim lahko izvedemo primerjavo označb dveh različnih dokumentov .
+TextProcCore ob nalaganju dodatkov med drugim preveri tudi prisotnost dokumentacije , ki je lahko zapisana na več načinov .
+HtmlRemover : odstrani značke HTML iz vsebine oz. nadomesti z drugimi , kar podamo preko vhodnih parametrov .
+Programsko ogrodje za procesiranje besedil v naravnem jeziku 75 log.clear ( ) ; zbriše vsebino dnevnika dogodkov .
+Naloga paketa gui.layout je pravilno razvrščanje tekstovnih polj in gumbov za snemanje in predvajanje posnetkov v rubriki Snemanje govora znotraj aplikacije .
+Poglavje 5 : Primeri uporabe 37 5.3 Skrbnik Skrbnik predstavlja prijavljenega uporabnika , ki ima poleg pravic do snemanja posnetkov , prenašanja posnetkov in ustvarjanja novega besedila tudi posebne pravice za spreminjanje vsebine spletne strani .
+http://dictionary.refer Spletna stran ponuja prevajanje ence.com / translate / Dictionary.com besedila v večje svetovne jezike .

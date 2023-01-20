@@ -1,0 +1,37 @@
+fr išče po frekvencah besed (npr. fr=1 najde vse besede, ki se v korpusu pojavijo samo enkrat)
+Najprej naj bo besedni seznam urejen po abecedi, drugič po frekvenci teh besed v korpusu, tretjič pa odzadnje.
+Slika 28: Urejanje besednega seznama po frekvenci in po abecedi v orodju SketchEngine
+Ali bi bil daljši seznam vseh različnih besed, ki se v korpusu FidaPLUS pojavljajo s frekvenco 100 ali več, ali seznam vseh različnih enopojavnic?
+Za razliko od referenčnih korpusov FIDA in FIDAplus korpus Nova beseda, velikosti nekaj nad 162 milijonov besed, na Inštitutu za slovenski jezik ZRC SAZU ni imel ambicije referenčnosti; največji del korpusa namreč predstavljajo besedila časopisa Delo.
+3. Kako lahko referenčni korpus pomaga pri sestavljanju slovarja?
+Tudi danes smo predvsem pri referenčnih korpusih priča težnji po zajemanju čim večje količine besedil.
+Špela Arhar in Vojko Gorjanc, 2007: Korpus FidaPLUS: nova generacija slovenskega referenčnega korpusa.
+Terminološka veda in računalniško podprta terminografija.
+To pomeni, da za iskalni pogoj stranka dobimo vse besedne oblike te besede (ker jo najde med lemami), za iskalni pogoj stranki pa samo to besedno obliko (ker je ne najde med lemami, ampak samo med besednimi oblikami).
+nform: iskanje po normalizirani sodobni besedni obliki brez velikih tiskanih črk, naglasnih znamenj ipd. (npr. ljubljana)
+2. Kolikokrat se v korpusu pojavi besedna oblika obnoviti in kolikokrat lema obnoviti?
+V katerem primeru se je ustrezneje odločiti za iskanje po besedni obliki in v katerem za iskanje po lemi?
+To pomeni, da za iskalni pogoj stranka dobimo vse besedne oblike te besede (ker jo najde med lemami), za iskalni pogoj stranki pa samo to besedno obliko (ker je ne najde med lemami, ampak samo med besednimi oblikami).
+5. besedni seznam, na katerem boste našli, s katerimi samostalniki v tožilniku se tipično pojavljajo glagoli z osnovo -graditi
+Prejšnji iskalni niz nadgradite z omejitvijo, da naj bodo glagoli v velelniku.
+Najdite vse tožilniške predložne besedne zveze, ki sledijo glagolom -igrati (glagol+predlog+samostalnik v tožilniku).
+Skupaj z zadetki iz korpusa se nam za iskani izraz izpišejo tudi prevodi iz sorodne terminološke zbirke Evroterm (Željko 2004).
+Korpusno jezikoslovje se je v slovenskem prosotru v dveh desetletjih zelo razvilo, tako da lahko tudi v prihodnje pričakujem dinamičen razvoj na tem področju.
+S tipologijo korpusov, tipologijo besedil in drugimi aktualnimi vprašanji korpusnega jezkoslovja se je ukvarjala evropska pobuda EAGLES; njeni dokumenti in priporočila v veliki meri predstavljajo izhodišče za gradnjo različnih tipov korpusov.
+Ob tako pripravljenih podatkih v korpusu lahko uporabimo programska orodja, ki so se razvila za analizo korpusov in omogočajo ne le pridobivanje jezikovnih podatkov iz korpusa, ampak tudi njihovo obdelavo in hranjenje.
+Prvi vzporedni korpus v paru s slovenščino je bil korpus ELAN, ki vključuje milijon besed, prav tako je enomilijonski tudi korpus TRANS, rezultat projektnega dela študentov prevajalstva na Oddelku za prevajalstvo FF UL, večji vzporedni korpus je korpus evropske zakonodaje SVEZ-IJS, daleč največji pa je korpus, ki je nastal iz pomnilnika prevodov Sektorja za prevajanje SVEZ (http://evroterm.gov.si/evrokorpus/); povezan je s terminološko bazo Evroterm (http://evroterm.gov.si), kar mu daje še dodatno uporabno vrednost.
+Nataša Logar Berginc, Miha Grčar, Marko Brakus, Tomaž Erjavec, Špela Arhar Holdt in Simon Krek, 2012: Korpusi slovenskega jezika Gigafida, KRES, ccGi-gafida in ccKRES: gradnja, vsebina, uporaba.
+V jezikoslovju se v zvezi z uporabo korpusov vse bolj uveljavlja poimenovanje korpusni pristop v jezikoslovju.
+Poleg nadomestnih znakov, kanalov in operatorjev konkordančnik omogoča še iskanje po frazah (npr. zimski_semester) ali besedah, ki se v korpusu pojavljajo blizu skupaj (npr. kruh//maslo).
+Svoje ugotovitve preizkusite še za frazo poletna rezidenca.
+Po frazah iščemo s podčrtajem (Slika 8), po bližini pa s poševnicama (Slika 9).
+2. Zanima vas, ali poleg fraze prodajalka vijolic obstajajo še prodajalke česa drugega.
+Usmerjen je v analizo enojezičnih slovenskih korpusov in tistih dvojezičnih, kjer se v jezikovnem paru pojavlja slovenščina.
+Druga polovica devetdesetih let 20. stoletja pa za slovenščino pomeni pravi preboj ideje o nujnosti oblikovanja tudi obsežnejših korpusov, z osrednjim projektom referenčnega korpusa slovenskega jezika.
+• od končnega nabora besedil mrtvih jezikov kot edinega gradivnega vira za jezikoslovne raziskave h končnemu naboru besedil živih jezikov, kjer se prvič pojavi vprašanje izbora besedil kot osnove za jezikovno analizo, in
+Jezikoslovna šola okrog Chomskega je zavračala veliko količino podatkov za osnovo jezikoslovnih raziskav, prvi poskusi gradnje korpusov pa so bili označeni kot »popolna izguba časa«, saj naj bi govorec določenega jezika v desetih minutah ustvaril za jezikoslovce več relevantnega gradiva, kot ga je na voljo v večmilijonskih korpusih (Biber in Finegan 1991: 204).
+V tradicionalnih jezikoslovnih raziskavah, posebej še v raziskavah mrtvih jezikov, je bil korpus razpoložljivih besedil – največkrat seveda fragmentarnih – vedno temelj raziskovanja.
+Korpus je računalniška zbirka besedil oz. delov besedil, zbranih po enotnih kriterijih za namene različnih, predvsem jezikoslovnih raziskav (Atkins et al. 1992: 1).
+• Korpusno jezikoslovje je pristop v jezikoslovnih raziskavah, ki temelji na analizi velike količine avtentičnih besedil, hkrati pa tudi metodologija za študij jezika v rabi.
+Kolikšen delež besed je enopojavnic?
+Prosto dostopna različica orodja SketchEngine, imenovana noSketchEngine, omogoča vse funkcionalnosti, razen besednih in razlikovalnih skic.

@@ -1,0 +1,2 @@
+2.2.3 JEZIKI ZA PREDSTAVITEV ONTOLOGIJ Jeziki za predstavitev ontologij so formalni jeziki , ki jih na področju računalništva in umetne inteligence uporabljamo za konstruiranje ontologij .
+Ocena testne ontologije , ki upošteva odvečnost podrazreda , je 1 — 3.3.2.4 Doslednost 3.3.2.4.1 Ciklična napaka Problem : Do ciklične napake pride takrat , ko je razred opredeljen kot podrazred ali nadrazred samega sebe na poljubni ravni hierarhije v ontologiji .

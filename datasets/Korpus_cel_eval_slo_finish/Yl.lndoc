@@ -1,0 +1,21 @@
+Namen projekta PoliDat je izgradnja baze izgovarjav za razvoj avtomatskih telefonskih sistemov govornega dialoga .
+Enostaven programček RemoveSGMLMarks poskrbi za pretvorbo TEI oblike v enostavno zaporedje povedi ločenih v dve datoteki ( eno za izvorni , drugo za ciljni jezik ) .
+FIDA je z nekaj nad 100 milijonov besed največji uravnoteženi referenčni korpus sodobnega slovenskega jezika .
+Islovar , http://www.islovar.org/ , je slovenski spletni terminološki slovar informatike , ki ga ureja Slovensko društvo INFORMATIKA od aprila 2001.
+- Wikipedia je spletna enciklopedija , ki jo sestavljajo in dopolnjujejo prostovoljci .
+- Wikispecies je taksonomija živih bitij v latinščini , za pogoste živali in rastline pa vsebuje tudi prevode v različne jezike , nekaj jih je tudi v slovenščini .
+Prvi korpus je " jos100k " , enojezični vzorčeni in uravnoteženi korpus slovenskega jezika s 100.000 besedami in z ročno označenimi oz. pregledanimi lemami ter oblikoskladenjskimi oznakami .
+Korpus FIDA ( Erjavec et al. , 1998 ) je 100-milijonski referenčni korpus sodobne slovenščine in vsebuje besedila , nastala med leti 1990-2000.
+Google Translate je tipični pripadnik sistemov statističnega strojnega prevajanja ( Statistical Machine Translation - SMT ) , ki je predstavljena v Razdelku 3..
+Bing Translator ( Quirk et al. , 2005 ) je hibridni sistem za strojno prevajanje naravnih jezikov .
+FIDA je referenčni korpus slovenskega pisanega jezika in obsega 100 mio besed iz različnih tekstovnih virov iz obdobja 1990-1999.
+Sintetizator na osnovi pravil , Kempelen 0.1 , ki so ga razvili 1990 , je bil sistem za osebni računalnik , optimiziran na čim manjšo pomnilniško zasedbo , uporabljal je zvočnik osebnega računalnika in izhode na paralelnih izhodnih vratih , pri tem je uporabljal lastno metodo stiskanja signala , tako da je ohranjal prehodne in sintetiziral stabilne dele fonemov s ponavljanjem istega mikrosegmenta ( osnovne periode ) .
+3.2.1 Korpus Brown Prvi računalniški korpus , namenjen jezikoslovnim raziskavam , je bil korpus Brown ( Brown University , Rhode Island ) .
+5.3 Orodje Sketch Engine Sketch Engine ( http://www.sketchengine.co.uk/ ) je večfunkcionalno orodje za delo s korpusi , ki poleg konkordančnika ponuja možnosti iskanja sopojavnic , slovničnih razmerij med iskanimi izrazi , semantično sorodnih besed in ponuja možnost primerjave dveh izrazov ( Kilgarriff in drugi , 2004 ) .
+Med vsemi terminološkimi slovarji gotovo izstopa Evroterm < http://www.sigov.si/ evroterm > , terminološka baza s spletnim iskalnikom Sektorja za prevajanje Službe Vlade RS za evropske zadeve , ki vsebuje več kot 30.000 dvojezičnih ( slovenskoangleških ) vpisov in je nastala pri prevajanju evropske zakonodaje v slovenski jezik ( @ eljko 2002 ) .
+EACL ( The European Chapter of the Association of Computational Linguistics ) je strokovno združenje za računalniške jezikoslovce v evropskem prostoru in je nastalo kot veja zveze ACL ( Association of Computational Linguistics ) , ki od ustanovitve leta 1962 deluje v Severni Ameriki .
+Eur-Lex je baza dokumentov , v kateri je prost dostop do Uradnih listov Evropskih skupnosti serij L ( vsa zakonodaja ) in C ( komunikacija in informacije ) v času 45 dni po izdaji akta ter veljavne zakonodaje Komisije .
+Predstavnik te vrste leksikonov je na primer ACQUILEX3 , v katerem je predstavljeno sintaktično in semantično znanje , izluščeno iz strojno berljivih italijanskih , španskih , nizozemskih in angleških slovarjev .
+Podoben je projekt ConceptNet7 , ki je prav tako avtomatsko generirana semantična mreža , vendar informacij o pojmih in odnosih med njimi niso pridobili iz slovarjev , temveč na podlagi trditev o prostorskih , fizičnih , družbenih , časovnih in psiholoških vidikih vsakdanjega življenja , ki so jih ocenjevali prostovoljci na svetovnem spletu .
+3.3.2 EuroWordNet ( EWN ) 13 13 http://www.illc.uva.nl/EuroWordNet/ PWN je v devetdesetih letih dvajsetega stoletja spodbudil razvoj večjezične leksikalne baze z imenom EuroWordNet , ki temelji na povezavi pojmov med številnimi evropskimi jeziki ( češki , estonski , francoski , italijanski , nemški , nizozemski in španski ) .
+Wikivrste Namen projekta Wikivrste27 je postaviti izčrpen , prosto dostopen in jezikovno neodvisen katalog živali , rastlin , gliv , bakterij , arhej in protistov in vseh drugih živih bitij .

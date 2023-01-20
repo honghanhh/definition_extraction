@@ -1,0 +1,4 @@
+Po tipologiji Eagles so karakteristike nekega korpusa tudi velikost , kakovost , avtentičnost in dokumentiranost ( 5 ( .
+ShProt vključuje tokenizator , besednovrstni označevalnik TnT , lematizacijo ( MMorph ) in razpoznavanje samostalniških , predložnih in glagolskih zvez ( Chunkie ; Skut in Brants 2000 ) .
+Postopke normalizacije sejne spremenljivosti ločimo v tri skupine : ( i ) postopki normalizacije na nivoju signala oz. značilk , ( ii ) postopki normalizacije na nivoju modela in ( iii ) postopki normalizacije na nivoju rezultatov razpoznavanja .
+Pregledali so številne probleme , povezane s strojnim prevajanjem ( ne samo govora , ampak tudi pisnih besedil ) , in jih poimenujejo tako : netekočnosti , narečne posebnosti ( tudi kalki ) , anafora , elipse , glagolske oblike , sintaksa , diskurzivne strategije .

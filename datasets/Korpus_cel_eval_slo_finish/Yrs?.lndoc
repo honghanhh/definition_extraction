@@ -1,0 +1,4 @@
+Osnovni nabori oznak ( base tag sets ) opisujejo različne zvrsti besedil , ki so med seboj razmeroma dobro ločene ; vsak DTD lahko vsebuje natanko en osnovni nabor znakov .
+Izpostavljenost ( ang. salience score ) je statistična vrednost , ki daje podatek o tem , kako močna je vez med kolokatorjem in izbrano iztočnico – večja ko je vrednost izpostavljenosti , močnejša je vez ( prav tam ) .
+1 Statistična izpostavljenost je prilagojena oblika Diceovega koeficienta in v grobem temelji na seštevku sopojavljanja besed v nekem slovničnem razmerju .
+Dobljena osnovna časovno-frekvenčna predstavitev se imenuje logaritemski kratkočasovni spekter , njegova grafična predstavitev pa tudi spektrogram ( Slika 2.4 ) .

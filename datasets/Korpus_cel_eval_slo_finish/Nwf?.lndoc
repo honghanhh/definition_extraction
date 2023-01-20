@@ -1,0 +1,1 @@
+Verjetnost P ( c ) , ki jo izračunamo po neki vnaprej definirani formuli , ki je odvisna od c in Q , imenujemo maksimalna podobnost ( maximum likelihood ) c. Predstavlja verjetnost , ki jo določa naš model na opazovanih podatkih c ter parametri Q. Problem učenja parametričnega modela na podatkih c je enostavno iskanje maksimuma P ( c ) .

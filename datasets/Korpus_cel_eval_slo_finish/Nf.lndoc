@@ -1,0 +1,3 @@
+Meri recall in precision sta podani kot : št. pravilno zaznanih prehodov Precision = skupno število najdenih prehodov ( 6 ) št. pravilno zaznanih prehodov Recall = .
+Če se beseda a v specializiranem korpusu S velikosti NS pojavi s pogostostjo fS , hkrati pa se beseda a v referenčnem korpusu R velikosti NR pojavi s pogostostjo fR , je razmerje njunih relativnih pogostosti hkrati merilo ključnosti besede a :
+103 A.2.2 Kriterij časovnega indeksa – " TDI " Mera za časovno zakasnitev okna ( časovni indeks oziroma TDI ) je določena z izrazom ( 4.6 ) .

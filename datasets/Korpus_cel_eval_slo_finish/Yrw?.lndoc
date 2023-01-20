@@ -1,0 +1,3 @@
+7.3.1 Statistični pristopi k iskanju terminov Skupna lastnost statističnih pristopov je , da temeljijo na uporabi korpusov in izkoriščajo ponovljivost oziroma pogostost jezikovnih enot .
+V nadaljevanju si bomo podrobneje ogledali odgovora na vprašanji , kako sestavimo opisana modela ter kako naj pregledamo vse angleške besede pri postavljanju rešitve – e. 2.6.1 Verjetnostni modeli Verjetnostni model je matematična formula , ki dovolj verno opisuje neko zapažanje .
+Ponavadi uporabimo iterativni postopek Expectation Maximization ( EM algoritem ) , ki je recept za izračun sekvence vektorjev parametrov Pi. Za to sekvenco lahko dokažemo , da ob izbranih pogojih ponuja izboljšavo rešitve v vsakem koraku : ( 7 ) Takšno nastavitev parametrov imenujemo EM-učenje .

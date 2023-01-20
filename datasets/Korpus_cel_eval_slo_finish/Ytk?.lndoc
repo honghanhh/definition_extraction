@@ -1,0 +1,2 @@
+Jezik XSLT definira način , kako preoblikovati dokumente XML v druge formate , bodisi XML ali drugačne , ki vsebujejo formate za stavljenje , vendar pa nanje niso omejeni .
+SkE je orodje za prikaz in analizo jezikovnih podatkov v besedilnem korpusu , ki obsega naslednje osnovne funkcije , predvidene za vsebinsko delo z izbranim korpusom : Konkordance ( Concordance ) , Seznam besed ( Word List ) , Besedna skica ( Word Sketch ) , Tezaver ( Thesaurus ) , Primerjalna skica ( Sketch-Diff ) .

@@ -1,0 +1,1 @@
+Celotna varianca je vsota pojasnjene variance in nepojasnjene variance : var ( X ) = 1m mX i = 1 ( bXi ¡ X ) 2 + 1m mX i = 1 ( Xi ¡ bXi ) 2 Nepojasnjena varianca oz. srednja kvadratna napaka , † 2 = 1m mX i = 1 ( Xi ¡ bXi ) 2 ; je ravno količina , ki jo multipla linearna regresija minimira .

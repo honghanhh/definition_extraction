@@ -1,0 +1,34 @@
+V večjem obsegu se pojavljajo šele v zadnjem času , ker so zanimivi za avtomatsko procesiranje govora , tj. elektronsko analizo in sintezo govora ; - spremljevalne : ti so dokaj nov tip korpusa .
+Najbolj znana oblika predstavitve informacij iz korpusa so konkordance in sicer v obliki KWIC ( Key Word In Context ) .
+- Morfološki analizator - modul , ki analizira poljubno besedno obliko in vrne njene osnovne morfološke informacije ; to - prid .
+Korpus je zbirka besedil , ki so osnova za različne jezikovne obdelave .
+Referenčni korpusi so enojezikovne zbirke besedil , ki pomenijo obsežen vir informacij o jeziku in njegovih lastnostih .
+Baze Aurora 3 sestavlja govorni material finske , španske , nemške in danske baze SpeechDat-Car ( AU / 225 / 00 et al. , 2000 ) .
+Pri zagovornikih jezikoslovno neoznačenega korpusa se zato namesto termina surovi korpus celo uporablja termin čisti korpus ( Leech 1997a : 4 ) .
+Če je tema ozko specializirana , bomo v komunikaciji uporabili specializirano izrazje , ki mu rečemo tudi terminologija , hkrati pa se bomo v takšen , se pravi specializiran , diskurz podali le ob domnevi , da sogovornik ali bralec uporabljeno izrazje pozna .
+Strojno učenje in metaučenje sta danes uveljavljeni metodi za avtomatsko ugotavljanje pravil in vzorcev v velikih količinah podatkov na mnogih področjih , na primer v medicini , hidrometeorologiji , geologiji in geografiji , biokemiji in drugih .
+Sorodnice ( cognates ) so besede , ki so si po zunanji podobi , navadno pa tudi po pomenu , podobne , npr. sistem / system , informacija / information , Francija / France .
+» Sketch Engine je korpusno orodje , ki na vhodu sprejme korpus kateregakoli jezika ter njegove slovnične vzorce , iz njih pa ustvari besedne skice ( Word sketches ) za besede tega jezika .
+Glasovi so osnovne akustične enote govorjenega jezika .
+2.1 Strukture XML Standard XML formalno definira računalniški zapis besedila in uvede načine , kako lahko to besedilo označimo in strukturiramo .
+Označevanje besednih zvez torej predstavlja nekakšno plitko skladenjsko analizo , vendar je še vedno precej zahteven korak , predvsem zaradi kompleksnosti razreševanja dvoumnosti vezave posameznih konstituentov .
+Označevanje besednih zvez torej predstavlja nekakšno plitko skladenjsko analizo , vendar je še vedno precej zahteven korak , predvsem zaradi kompleksnosti razreševanja dvoumnosti vezave posameznih konstituentov .
+Na površinskoskladenjski ravni so večinoma predstavljena strukturna in / ali funkcijska razmerja med pojavnicami v povedi , pri pomenskoskladenjski analizi pa se pogosto označujejo pomenska razmerja med glagolom oz. povedkom in njegovimi določili ter dopolnili , tematskorematska struktura povedi oz. Členitev po aktualnosti , koreferenčna razmerja ipd.
+Področje prevajalskih tehnologij se deli na dve veji , ki se med seboj tudi povezujeta : strojno in računalniško podprto prevajanje .
+3.1 Orodja za korpusno analizo Z računalniškimi orodji si poenostavimo in pospešimo analizo korpusa , pogosto pa orodja omogočajo tudi vpogled v korpusne podatke in posledično odkrivanje vzorcev ter zakonitosti , ki presegajo meje ročnega obvladovanja korpusov .
+Slika 1 : Drevo skladenjske razčlembe Prevajanje po slovnici Prevajanje po slovnici v nasprotju s prevajanjem po besedah in besednih nizih temelji na prevajanju slovničnih enot , tj. slovnično razčlenjenih povedih .
+Strojno simultano prevajanje govora združuje obe do zdaj temeljni smeri govornih tehnologij , razpoznavo in sintezo govora , hkrati pa zahtevajo nov , v slovenskem prostoru še skoraj neraziskan modul – prevajanje govorjenega besedila .
+Analiza diskurza poudarja , da je bistvena vpetost besedila v kontekst .
+Za dele besedila v besedilni in medosebni funkciji sta se v anglo-ameriškem jezikoslovju uveljavila termina metadiskurz in metabesedilo ( metadiscourse in metatext ) .
+S konceptom vračanj se predstavljena tipologija stika s tukaj opazovanimi popravljanji : » Vračanja so tisti jezikovni pojavi , pri katerih G / P med tvorjenjem besedila pove ali izrazi eno sporočilo , dvakrat , eventualno večkrat , torej se k izgovorjenemu izrazu pridruži izraz , ki je ustreznejši ali bolj znan .
+C-popravljanja ( iz angl. Covert ) : govorec prekine govorni niz s posebnim elementom ( najpogosteje diskurzni označevalec , npr. eee , no ...)
+Slovenske označevalce medleksemskih razmerij oziroma stalnih delov besedil , s pomočjo katerih v besedilu povezujemo elemente pojmovnega sistema , sta identificirala Gorjanc in Vintar ( 2007 ) in preverila njihovo uspešnost pri zajemanju dejansko pojmovno povezanih leksikalnih enot iz korpusa .
+Vsak sinset je opremljen z identifikacijsko kodo ( npr. ENG20-02853224-n ) , informacijo o besedni vrsti ( npr. n , ki je angleška oznaka za samostalniške sinsete ) in razlago ( npr. ang. » 4-wheeled motor vehicle ; usually propelled by an internal combustion engine « – motorno vozilo s štirimi kolesi , ki ga ponavadi poganja motor z notranjim izgorevanjem ) , pogosto pa sinseti vsebujejo tudi primere rabe ( npr. ang. » he needs a car to get to work « – za prevoz v službo potrebuje avto ) , oznako za področje , iz katerega izhaja , oziroma domeno ( npr. ang. tourism – turizem ) in povezavo na ontologijo SUMO / MILO ( npr. ang. TransportationDevice – TransportnaNaprava ) .
+Tezaver je strukturiran seznam izrazov , v katerem je besedišče razdeljeno na deskriptorje in nedeskriptorje .
+Posebna vrsta skladenjskega razčenjevanja je odvisnostno razčlenjevanje .
+Odvisnostno razčlenjevanje je posebna vrsta skladenjskega razčlenjevanja .
+Osnovna enota besedila , ki jo obravnava skladenjsko razčlenjevanju , je poved .
+Naloga avtomatskih razčlenjevalnikov je zgraditi čim bolj točno drevo iz vhodnega besedila .
+Angleški izraz » anaphora « se strožje gledano nanaša samo na sklice za nazaj , torej na entitete , ki so že zapisane .
+2.2.3 Razvrščanje v gruče Razvrščanje dokumentov oz. besedil v gruče ( angl. » text clustering « ) je za razliko od kategorizacije besedil popolnoma nenadzirana oblika razporeditve besedil v skupine .
+Usmerjeno iskanje ( ang. faceted search ) omogoča izostritev pogojev poizvedbe , če je za uporabnika na voljo preveč različnih rezultatov .

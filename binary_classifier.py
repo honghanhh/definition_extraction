@@ -1,5 +1,5 @@
 import os
-os.environ["CUDA_VISIBLE_DEVICES"]='4'
+os.environ["CUDA_VISIBLE_DEVICES"]='6'
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 os.environ["WANDB_DISABLED"] = "true"
 import glob
@@ -56,7 +56,7 @@ if __name__ == '__main__':
     parser.add_argument('--output_dir', type=str, default='./SloBERTa_Y_N', help='Output directory.')
     parser.add_argument('--model_dir', type=str, default='./SloBERTa_Y_N_model', help='Model directory.')
     parser.add_argument('--result_dir', type=str, default='./SloBERTa_Y_N_output.pkl', help='Result directory.')
-    
+    parser.add_argument('--statistics', type=str, default='./SloBERTa_Y_N_stats.csv', help='Stats.')
 
     args = parser.parse_args()
     
@@ -66,8 +66,14 @@ if __name__ == '__main__':
         os.makedirs(args.model_dir)
         
     path = './classifier_18_20_22/corpus/'
+    
+    not_df = read_lndoc(path + 'sl/DF_NDF_wiki/N.lndoc')
+    def_df = read_lndoc(path + 'sl/DF_NDF_wiki/Y.lndoc')
+
     if args.is_non_def:
-        not_df = read_lndoc(path + 'sl/DF_NDF_wiki/N.lndoc')
+        weak_df = read_lndoc(path + 'sl/DF_NDF_wiki/N1.lndoc', True)
+        not_df = pd.concat([not_df, weak_df], axis=0, ignore_index=True)
+        
         rand_df = preprocess_raw_corpus(path + 'Definitions_5-200_ZRC_ocena.csv', 
                                     'sentence', 
                                     'SKUPNA OCENA PRIMERNOSTI', 
@@ -77,7 +83,9 @@ if __name__ == '__main__':
                                         'Ocena (glede na termine, kjer bi jim lahko to pripisali)',
                                         'xlsx', True)
     else:
-        not_df = read_lndoc(path + 'sl/DF_NDF_wiki/N1.lndoc')
+        weak_df = read_lndoc(path + 'sl/DF_NDF_wiki/N1.lndoc', False)
+        def_df = pd.concat([def_df, weak_df], axis=0, ignore_index=True)
+        
         rand_df = preprocess_raw_corpus(path + 'Definitions_5-200_ZRC_ocena.csv', 
                                     'sentence', 
                                     'SKUPNA OCENA PRIMERNOSTI', 
@@ -86,8 +94,7 @@ if __name__ == '__main__':
                                         'sentence',
                                         'Ocena (glede na termine, kjer bi jim lahko to pripisali)',
                                         'xlsx', False)
-
-    def_df = read_lndoc(path + 'sl/DF_NDF_wiki/Y.lndoc')
+        
     data = pd.concat([def_df, not_df])
     data['texts'] = [' '.join(word_tokenize(x)) for x in data['texts']]
     
@@ -96,12 +103,12 @@ if __name__ == '__main__':
                                                         data['labels'],
                                                         test_size=0.25, 
                                                         shuffle = True,
+                                                        stratify = data['labels'],
                                                         random_state=42)
 
     X_train['labels'], X_test['labels'] = y_train, y_test
     train_df, test_df = Dataset.from_dict(X_train), Dataset.from_dict(X_test)
     
-
     all_files = [file for file in glob.glob("./classifier_18_20_22/corpus/sl/rsdo5*")]
     outputs =[]
     names = []
@@ -112,23 +119,37 @@ if __name__ == '__main__':
             outputs.append(reformat(file, False))
         names.append(file.split('/')[-1])
 
-    outputs_dict = [Dataset.from_dict(x) for x in outputs]    
+    outputs_dict = [Dataset.from_dict(x) for x in outputs]     
 
     data = dict(zip(names,outputs_dict))
-
-
+ 
     data['train'] = train_df
     data['test'] = test_df
     data['random_sampling'] = Dataset.from_dict(rand_df)
     data['pattern'] = Dataset.from_dict(pattern_df)
-    data['all_rsdo'] = Dataset.from_dict(pd.concat(outputs, axis=0, ignore_index=True))
+    all_rsdo = pd.concat(outputs, axis=0, ignore_index=True)
+    data['all_rsdo'] = Dataset.from_dict(all_rsdo)
     raw_datasets = DatasetDict(data)
+    
+    rsdo_stats = get_value_counts(all_rsdo, 'rsdo')
+    wiki = get_value_counts(data, 'wiki')
+    rand = get_value_counts(rand_df, 'rand_df')
+    pat = get_value_counts(pattern_df, 'pattern_df')
+    rsdo_stats.merge(wiki, 
+                     on='labels', 
+                     how='inner').merge(rand,
+                                        on='labels', 
+                                        how='inner').merge(pat, 
+                                                           on='labels',
+                                                           how='inner').to_csv('data_stats.csv', index=False)
+    print(rsdo)
     
     class_weights = compute_class_weight(class_weight = 'balanced', classes = np.unique(y_train), y = y_train)
     class_weights =  [np.float32(x) for x in class_weights.tolist()]
 
-    
-    tokenizer = AutoTokenizer.from_pretrained(args.model, use_fast=True)
+    tokenizer = AutoTokenizer.from_pretrained(args.model,
+                                              model_max_length=512,
+                                              use_fast=True)
     model = AutoModelForSequenceClassification.from_pretrained(args.model, num_labels=2).to(device)
 
     tokenized_data = raw_datasets.map(preprocess_function, batched=True)
@@ -137,9 +158,9 @@ if __name__ == '__main__':
     training_args = TrainingArguments(
         output_dir= args.output_dir,
         learning_rate=2e-5,
-        per_device_train_batch_size=8,
-        per_device_eval_batch_size=8,
-        num_train_epochs=10,
+        per_device_train_batch_size=16,
+        per_device_eval_batch_size=16,
+        num_train_epochs=20,
         weight_decay=0.01,
     )
 

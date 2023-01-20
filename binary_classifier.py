@@ -120,6 +120,16 @@ if __name__ == '__main__':
         names.append(file.split('/')[-1])
 
     outputs_dict = [Dataset.from_dict(x) for x in outputs]     
+    
+    ### Just for checking data split
+    all_rsdo = pd.concat(outputs, axis=0, ignore_index=True)
+    rsdo_stats = get_value_counts(all_rsdo, 'rsdo')
+    wiki = get_value_counts(data, 'wiki')
+    rand = get_value_counts(rand_df, 'rand_df')
+    pat = get_value_counts(pattern_df, 'pattern_df')
+    stats = rsdo_stats.merge(wiki, on='labels', how='inner').merge(rand,on='labels', how='inner').merge(pat, on='labels', how='inner').to_csv(args.statistics, index=False)
+    print(stats)
+     ### End checking
 
     data = dict(zip(names,outputs_dict))
  
@@ -127,22 +137,8 @@ if __name__ == '__main__':
     data['test'] = test_df
     data['random_sampling'] = Dataset.from_dict(rand_df)
     data['pattern'] = Dataset.from_dict(pattern_df)
-    all_rsdo = pd.concat(outputs, axis=0, ignore_index=True)
     data['all_rsdo'] = Dataset.from_dict(all_rsdo)
     raw_datasets = DatasetDict(data)
-    
-    rsdo_stats = get_value_counts(all_rsdo, 'rsdo')
-    wiki = get_value_counts(data, 'wiki')
-    rand = get_value_counts(rand_df, 'rand_df')
-    pat = get_value_counts(pattern_df, 'pattern_df')
-    rsdo_stats.merge(wiki, 
-                     on='labels', 
-                     how='inner').merge(rand,
-                                        on='labels', 
-                                        how='inner').merge(pat, 
-                                                           on='labels',
-                                                           how='inner').to_csv('data_stats.csv', index=False)
-    print(rsdo)
     
     class_weights = compute_class_weight(class_weight = 'balanced', classes = np.unique(y_train), y = y_train)
     class_weights =  [np.float32(x) for x in class_weights.tolist()]

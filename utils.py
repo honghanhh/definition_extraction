@@ -3,7 +3,7 @@ import pandas as pd
 import warnings
 warnings.filterwarnings('ignore')
 import nltk
-nltk.download('punkt')
+# nltk.download('punkt')
 from nltk.tokenize import word_tokenize
 
 def read_lndoc(path, non_def = True):
@@ -51,3 +51,7 @@ def preprocess_raw_corpus(path, col1, col2, file='csv', non_def = True):
         df['labels'] = [1 if x == 2.0 or x == 1.0 else 0 for x in df['labels']]
     df['texts'] = [' '.join(word_tokenize(x)) for x in df['texts']]
     return df
+
+def get_value_counts(df, names):
+    return df.labels.value_counts().reset_index().rename(columns = {'labels':names,
+                                                                    'index':'labels'})

@@ -46,7 +46,7 @@ class CustomTrainer(Trainer):
 def pred_rsdo(df, trainer):
     test_predictions, test_labels, _ = trainer.predict(df)
     test_predictions = np.argmax(test_predictions, axis=1)
-    return classification_report(test_labels, test_predictions, digits=4, output_dict=True)
+    return classification_report(test_labels, test_predictions, digits=4, output_dict=True), test_predictions
 
 if __name__ == '__main__':
 
@@ -72,11 +72,9 @@ if __name__ == '__main__':
 
     not_df = read_lndoc(path + 'sl/DF_NDF_wiki/N.lndoc')
     def_df = read_lndoc(path + 'sl/DF_NDF_wiki/Y.lndoc')
+    data = pd.concat([def_df, not_df])
 
     if args.is_non_def == 1:
-        weak_df = read_lndoc(path + 'sl/DF_NDF_wiki/N1.lndoc', 1)
-        not_df = pd.concat([not_df, weak_df], axis=0, ignore_index=True)
-        
         rand_df = preprocess_raw_corpus(path + 'Definitions_5-200_ZRC_ocena.csv', 
                                     'sentence', 
                                     'SKUPNA OCENA PRIMERNOSTI', 
@@ -86,9 +84,6 @@ if __name__ == '__main__':
                                         'Ocena (glede na termine, kjer bi jim lahko to pripisali)',
                                         'xlsx', 1)
     else:
-        weak_df = read_lndoc(path + 'sl/DF_NDF_wiki/N1.lndoc', 0)
-        def_df = pd.concat([def_df, weak_df], axis=0, ignore_index=True)
-        
         rand_df = preprocess_raw_corpus(path + 'Definitions_5-200_ZRC_ocena.csv', 
                                     'sentence', 
                                     'SKUPNA OCENA PRIMERNOSTI', 
@@ -97,15 +92,8 @@ if __name__ == '__main__':
                                         'sentence',
                                         'Ocena (glede na termine, kjer bi jim lahko to pripisali)',
                                         'xlsx', 0)
-    
-    data = pd.concat([def_df, not_df])
-    
-    wiki = get_value_counts(data, 'wiki')
-    rand = get_value_counts(rand_df, 'rand_df')
-    pat = get_value_counts(pattern_df, 'pattern_df')
-    stats = wiki.merge(rand,on='labels', how='inner').merge(pat, on='labels', how='inner')
-    # print(stats)
-    
+    combined_df = pd.concat([rand_df, pattern_df], axis=0, ignore_index=True)
+    combined_df = combined_df.drop_duplicates()
     data['texts'] = [' '.join(word_tokenize(x)) for x in data['texts']]
     
 
@@ -129,23 +117,14 @@ if __name__ == '__main__':
             outputs.append(reformat(file, 0))
         names.append(file.split('/')[-1])
 
-    outputs_dict = [Dataset.from_dict(x) for x in outputs]     
-    
-    ### Just for checking data split
-    all_rsdo = pd.concat(outputs, axis=0, ignore_index=True)
-    rsdo_stats = get_value_counts(all_rsdo, 'rsdo')
-    stats = rsdo_stats.merge(stats, on='labels', how='inner')
-    stats.to_csv(args.statistics, index=False)
-    print(stats)
-     ### End checking
+    outputs_dict = [Dataset.from_dict(x) for x in outputs]    
 
     data = dict(zip(names,outputs_dict))
  
     data['train'] = train_df
     data['test'] = test_df
     data['random_sampling'] = Dataset.from_dict(rand_df)
-    data['pattern'] = Dataset.from_dict(pattern_df)
-    data['all_rsdo'] = Dataset.from_dict(all_rsdo)
+    data['combined_df'] = Dataset.from_dict(combined_df)
     raw_datasets = DatasetDict(data)
     
     class_weights = compute_class_weight(class_weight = 'balanced', classes = np.unique(y_train), y = y_train)
@@ -182,9 +161,9 @@ if __name__ == '__main__':
 
     
     results = []
-    for name in ['test','random_sampling','pattern','all_rsdo']:
-        metrics = pred_rsdo(tokenized_data[name], trainer)
-        results.append({name: metrics})
+    for name in ['random_sampling','combined_df']:
+        metrics, preds = pred_rsdo(tokenized_data[name], trainer)
+        results.append({name: [metrics, preds]})
 
 
     with open(args.result_dir, 'wb') as handle:

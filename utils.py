@@ -41,10 +41,6 @@ def preprocess_raw_corpus(path, col1, col2, file='csv', non_def = 1):
     df = df.rename(columns = {col1:'texts',
                              col2:'labels'})
     df = df.dropna(subset=['labels'])
-    # if non_def:
-    #     df = df[df['labels'] != 1]
-    # else:
-    #     df = df[df['labels'] != 0]
     if non_def == 1:
         df['labels'] = [1 if x == 2.0 else 0 for x in df['labels']]
     else:
